@@ -1,0 +1,259 @@
+/* !Boton de Cristian
+button {
+  align-items: center;
+  background-image: linear-gradient(144deg, #171616, #FDEF04 20%, #111313);
+  border: 0;
+  border-radius: 5px;
+  box-shadow: #02020233 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+button span {
+  background-color: #171616; 
+  padding: 16px 24px;
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+button:hover span {
+  background: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+*/
+/*!Boton Carlos*/
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+  width: 120%;
+  margin: 20px 20px 50px 20px;
+}
+
+.h1-responsivefont-weight-boldtext-centermy-4{
+  color: black;
+  margin: 20px 20px 40px 0px;
+  text-align: center;
+}
+
+.text-centerw-responsivemx-automb-5{
+  margin: 50px 30px 50px 0px;
+}
+
+.prueba{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  border-bottom: solid black;
+}
+
+textarea{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  border-bottom: solid black;
+  height: 200px;
+}
+
+textarea:focus{
+  outline: none !important;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px black;
+
+}
+
+textarea:hover{
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+/*Esto cambia el formulario excepto escribe un mensaje */
+.prueba:focus {
+  outline: none !important;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px black;
+
+}
+
+.prueba:hover{
+  transition: 0.2s;
+  border-radius: 5px
+}
+
+.box{
+  border: 1px black;
+  background-color: #ffffff;
+  border-style: inset;
+  box-shadow: 5px 5px 0 #111313;
+  height: 120px;
+  width: 500px;
+  margin: 10px 0px 10px 300px; 
+  border-radius: 5px;
+}
+.move{
+  position: absolute;
+  top: 80px;
+  left: 700px;
+  color: #686767;
+}
+
+.move2{
+  position: absolute;
+  top: 60px;
+  left: 350px;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 720px;
+}
+
+/*
+Codigo de internet
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #111313;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+   outline: none; 
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FBC638;
+    text-decoration: none;
+    color: #FBC638;
+}
+
+.cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FBC638;
+    }
+    100% {
+        fill: white;
+    }
+}
