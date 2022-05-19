@@ -99,7 +99,8 @@ textarea:hover{
   justify-content: center;
 }
 body {
-  background: linear-gradient(#716b6b, #31e9c5);
+background: linear-gradient(#716b6b, #31e9c5);
+  
 }
 
 /*?NAVBAR*/
