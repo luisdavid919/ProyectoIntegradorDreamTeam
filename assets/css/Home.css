@@ -13,9 +13,7 @@
   justify-content: center;
 }
 body {
-  background: rgb(113,107,107);
-background: linear-gradient(90deg, rgba(113,107,107,1) 0%, rgba(49,233,197,1) 35%);
-
+background: linear-gradient(#716b6b, #31e9c5);
 }
 
 /*?NAVBAR*/

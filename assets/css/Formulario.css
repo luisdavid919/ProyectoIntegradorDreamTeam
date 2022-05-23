@@ -1,0 +1,70 @@
+.row{
+  width: 100%;
+  margin: 20px 20px 50px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-responsivefont-weight-boldtext-centermy-4{
+  color: black;
+  margin: 20px 20px 40px 0px;
+  text-align: center;
+}
+
+.text-centerw-responsivemx-automb-5{
+  margin: 50px 30px 50px 0px;
+}
+
+.prueba{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  border-bottom: solid black;
+}
+
+
+textarea{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  border-bottom: solid black;
+  height: 200px;
+}
+
+textarea:focus{
+  outline: none !important;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px black;
+
+}
+
+textarea:hover{
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+/*Esto cambia el formulario excepto escribe un mensaje */
+.prueba:focus {
+  outline: none !important;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px black;
+
+}
+
+.prueba:hover{
+  transition: 0.2s;
+  border-radius: 5px
+}
+
+
+
+

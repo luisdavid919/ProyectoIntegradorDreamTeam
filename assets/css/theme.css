@@ -9169,7 +9169,7 @@ fieldset:disabled .btn {
 }
 
 .pt-7 {
-  padding-top: 5rem !important;
+  padding-top: 0rem !important;
 }
 
 .pt-8 {
@@ -17340,7 +17340,7 @@ pre, code {
 section {
   position: relative;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 0;
 }
 
 @media (min-width: 992px) {
@@ -18476,3 +18476,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 -----------------------------------------------*/
 
 /*# sourceMappingURL=theme.css.map */
+
+
+
+

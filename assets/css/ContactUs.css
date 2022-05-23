@@ -99,9 +99,14 @@ textarea:hover{
   justify-content: center;
 }
 body {
+<<<<<<< HEAD
   background: rgb(113,107,107);
 background: linear-gradient(90deg, rgba(113,107,107,1) 0%, rgba(49,233,197,1) 35%);
 
+=======
+background: linear-gradient(#716b6b, #31e9c5);
+  
+>>>>>>> 98d369869250f19d418cc8f7bd00f8ffa7eac66a
 }
 
 
