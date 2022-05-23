@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Navigation-Bar Test</title>    
+    
+    <!-- BOOTSTRAP CSS --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ 
+  </head>
+  <body>
+    
+    <!-- NAVBAR -->
+    
+    <!-- navbar wrapping -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      
+      <!-- container for responsiveness -->
+      <div class="container-fluid">
+
+        <!-- first item: brand name -->
+        <a class="navbar-brand" href="#">MyBrand</a>
+
+        <!-- this is the button when it collapses due to small screen size (data-bs-target must match the ID of the div below)-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- this div holds everything who is going to collapse inside the button (be careful with the ID. It must match with the button target) -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- this list contains the "menu options (items)" such as download, contact, pricing, etc. -->
+          <ul id="my-ul" class="ms-auto navbar-nav">
+            
+            <!-- this is an item -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+            <!-- this is another item -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>          
+          
+          </ul>
+        
+        </div>
+      
+      </div>
+
+    </nav>
+
+
+
+    <!-- BOOTSTRAP JS BUNDLE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+
+</html>
