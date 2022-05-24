@@ -18432,7 +18432,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /**FORMULARIO*/
 .row{
   width: 100%;
-  margin: 20px 20px 50px 20px;
+  margin: 0px 20px 40px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18445,7 +18445,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .text-centerw-responsivemx-automb-5{
-  margin: 50px 30px 50px 0px;
+  margin: 50px 30px 50px 30px;
 }
 
 .prueba{
@@ -18496,6 +18496,21 @@ textarea:hover{
   transition: 0.2s;
   border-radius: 5px
 }
+
+.col-md-12{
+  margin: 0px;
+}
+
+.container1{
+  height: 1100px;
+}
+
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*?BOTON ENVIAR*/
 button {
  font-family: inherit;
