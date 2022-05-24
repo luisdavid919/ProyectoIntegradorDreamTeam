@@ -1,45 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                                 Theme                                      */
-/* -------------------------------------------------------------------------- */
-/* prettier-ignore */
-/* -------------------------------------------------------------------------- */
-/*                                  Utilities                                 */
-/* -------------------------------------------------------------------------- */
-/*-----------------------------------------------
-|   Bootstrap Styles
------------------------------------------------*/
-/*!
- * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-:root {
-  --bs-blue: #3011BC;
-  --bs-indigo: #0057F2;
-  --bs-purple: #7E11BC;
-  --bs-pink: #F8A2FF;
-  --bs-red: #FF705C;
-  --bs-orange: #FE7A15;
-  --bs-yellow: #FFA15C;
-  --bs-green: #19CC61;
-  --bs-teal: #00D9B0;
-  --bs-cyan: #00A1FC;
-  --bs-white: #FFFEFE;
-  --bs-gray: #9E9E9E;
-  --bs-gray-dark: #616161;
-  --bs-primary: #FFA15C;
-  --bs-secondary: #FE7A15;
-  --bs-success: #19CC61;
-  --bs-info: #00A1FC;
-  --bs-warning: #FFA15C;
-  --bs-danger: #FF705C;
-  --bs-light: #F9FAFD;
-  --bs-dark: #212121;
-  --bs-font-sans-serif: "Jost", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
-}
 
 *,
 *::before,
@@ -18471,10 +18429,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-bottom-color: #757575;
 }
 
-/*-----------------------------------------------
-|   User Styles
------------------------------------------------*/
-
+/*?CARDS*/
 * {
   margin: 0;
   padding: 0;
@@ -18482,20 +18437,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-/*?CARDS*/
 .flex {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-body {
-  background-color: #fa8bff;
-  background-image: linear-gradient(
-    45deg,
-    #fa8bff 0%,
-    #2bd2ff 52%,
-    #2bff88 90%
-  );
 }
 .cards {
   flex-wrap: wrap;
