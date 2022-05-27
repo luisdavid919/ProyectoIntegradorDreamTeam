@@ -9094,8 +9094,8 @@ fieldset:disabled .btn {
 }
 
 .py-11 {
-  padding-top: 15rem !important;
-  padding-bottom: 15rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .pt-0 {
@@ -17297,7 +17297,7 @@ pre, code {
 
 section {
   position: relative;
-  padding-top: 4rem;
+  padding-top: 1rem;
   padding-bottom: 0;
 }
 

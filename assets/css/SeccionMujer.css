@@ -9105,7 +9105,7 @@ fieldset:disabled .btn {
 }
 
 .py-11 {
-  padding-top: 15rem !important;
+  padding-top: 2rem !important;
   padding-bottom: 15rem !important;
 }
 
@@ -18576,7 +18576,6 @@ button:active {
 
 .card{
   margin: 0px 20px 20px 20px;
-
 }
 
 

@@ -11,7 +11,7 @@ function addItem(item) {
     '        <p class="card-text">' +
     item.description +
     "</p>\n" +
-    '        <a href="#" class="btn btn-primary">Add</a>\n' +
+    '        <a href="#" class="btn btn-primary">Añadir</a>\n' +
     "    </div>\n" +
     "</div>\n" +
     "<br/>";
