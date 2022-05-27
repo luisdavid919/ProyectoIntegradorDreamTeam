@@ -1,6 +1,6 @@
 function addItem(item) {
   const itemHTML =
-    '<div class="card" style="width: 18rem;">\n' +
+    '<div class="card" style="width: 100px;">\n' +
     '    <img src="' +
     item.img +
     '" class="card-img-top" alt="image">\n' +
@@ -21,7 +21,7 @@ function addItem(item) {
 
 addItem({
   name: "Ejemplo 1",
-  img: "https://quarry.vteximg.com.br/arquivos/ids/367249-500-500/QC241126BC-1.jpg?v=637726831445970000",
+  img: "assets/img/gallery/shirt-1.png",
   description: "Playera blanca basica", 
 });
 
