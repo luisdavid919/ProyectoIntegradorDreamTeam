@@ -3478,9 +3478,10 @@ fieldset:disabled .btn {
 }
 
 .btn-primary:hover {
-  color: #616161;
-  background-color: #ffaf74;
-  border-color: #ffaa6c;
+  color: #FFA15C;
+  background-color: #292929;
+  border-color: #292929;
+  transition: 0.7s;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -5281,7 +5282,7 @@ fieldset:disabled .btn {
   height: 100%;
   background-position: center;
   background-size: cover;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .card-img:hover,
@@ -18575,7 +18576,7 @@ button:active {
 }
 
 .card{
-  margin: 0px 20px 20px 20px;
+  margin: 0px 30px 50px 30px;
 }
 
 

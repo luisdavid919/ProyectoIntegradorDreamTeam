@@ -3721,12 +3721,14 @@ fieldset:disabled .btn {
   color: #616161;
   background-color: #F9FAFD;
   border-color: #F9FAFD;
+  border-radius: 5px;
 }
 
 .btn-light:hover {
-  color: #616161;
-  background-color: #fafbfd;
-  border-color: #fafbfd;
+  color: #fafbfd;
+  background-color: #292929;
+  border-color: #292929;
+  transition: 0.7s ;
 }
 
 .btn-check:focus + .btn-light, .btn-light:focus {
