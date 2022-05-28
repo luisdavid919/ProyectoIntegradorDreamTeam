@@ -1,0 +1,48 @@
+/*.producto{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 20px;
+}*/
+.producto{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 20px;
+}
+
+.idCrearprod{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+
+#IDenviarProd{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
