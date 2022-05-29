@@ -8,7 +8,7 @@
     <!-- ===============================================-->
     <!-- TITULO DE LA VENTANA-->
     <!-- ===============================================-->
-    <title>G-TPX | Admin</title>
+    <title>G-TPX | Mujer</title>
 
     <!-- ===============================================-->
     <!--    ICONOS-->
@@ -45,7 +45,7 @@
     <!-- ===============================================-->
     <!--    CSS LINKEADO-->
     <!-- ===============================================-->
-    <link href="assets/css/NewProducts.css" rel="stylesheet" />
+    <link href="assets/css/SeccionMujer.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -58,7 +58,7 @@
         data-navbar-on-scroll="data-navbar-on-scroll"
       >
         <div class="container">
-          <a class="navbar-brand d-inline-flex" href="/NewHomeFuncional.html">
+          <a class="navbar-brand d-inline-flex" href="./NewHomeFuncional.html">
             <img
               class="d-inline-block"
               src="assets/img/gallery/logo.png"
@@ -83,16 +83,26 @@
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item px-2">
-                <a class="nav-link fw-medium" href="/NewAboutUs.html">Dev Team</a>
-              </li>
-                            <li class="nav-item px-2">
-                <a class="nav-link fw-medium" href="/NewProducts.html">
-                  Admin
+                <a
+                  class="nav-link fw-medium active"
+                  aria-current="page"
+                  href="./NewMujer.html"
+                >
+                  Mujeres
                 </a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-medium" href="./Newhombre.html">Hombres</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-medium" href="#">Rebajas</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link fw-medium" href="/NewAboutUs.html">Dev Team</a>
               </li>
             </ul>
             <form class="d-flex">
-              <a class="text-1000" href="/NewContactUs.html">
+              <a class="text-1000" href="./NewContactUs.html">
                 <svg
                   class="feather feather-phone me-3"
                   xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +140,7 @@
                   ></path>
                 </svg>
               </a>
-              <a class="text-1000" href="/NewLogin.html">
+              <a class="text-1000" href="#!">
                 <svg
                   class="feather feather-user me-3"
                   xmlns="http://www.w3.org/2000/svg"
@@ -151,36 +161,24 @@
           </div>
         </div>
       </nav>
-    <!-- ===============================================-->
-    <!--    FINAL DE LA NAVBAR-->
-    <!-- ===============================================-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <!-- ===============================================-->
-    <!--    INICIO DEL FOOTER-->
-    <!-- ===============================================-->
+    <!-- *===============================================-->
+    <!--  *  FINAL DE LA NAVBAR-->
+    <!-- *===============================================-->
+      <!-- ?===============================================-->
+      <!-- ?   INICIO PLAYERAS-->
+      <!-- ?===============================================-->
+      
+      <section>
+        <div id="list-items"></div>
+      </section>
+      
+      <!-- ?===============================================-->
+      <!-- ?   FINAL PLAYERAS-->
+      <!-- ?===============================================-->
+
+    <!-- *===============================================-->
+    <!--  *  INICIO DEL FOOTER-->
+    <!-- *===============================================-->
       <section class="py-0 pt-7">
         <div class="container">
           <div class="row">
@@ -188,13 +186,8 @@
               <h5 class="lh-lg fw-bold text-1000">Compañia</h5>
               <ul class="list-unstyled mb-md-4 mb-lg-0">
                 <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="#!">
+                  <a class="text-800 text-decoration-none" href="/NewAboutUs.html">
                     Dev Team
-                  </a>
-                </li>
-                                <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="/NewProducts.html">
-                    Admin
                   </a>
                 </li>
               </ul>
@@ -312,6 +305,9 @@
                   <span class="me-4" data-feather="instagram"></span>
                 </a>
                 <a href="#!">
+                  <span class="me-4" data-feather="youtube"></span>
+                </a>
+                <a href="#!">
                   <span class="me-4" data-feather="twitter"></span>
                 </a>
               </div>
@@ -335,6 +331,7 @@
     <script>
       feather.replace();
     </script>
+    <script src="./assets/js/SeccionMujer.js"></script>
     <script src="assets/js/theme.js"></script>
 
     <link
