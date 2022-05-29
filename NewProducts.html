@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ?===============================================-->
-    <!-- ?TITULO DE LA VENTANA-->
-    <!-- ?===============================================-->
-    <title>G-TPX | Contact Us</title>
+    <!-- ===============================================-->
+    <!-- TITULO DE LA VENTANA-->
+    <!-- ===============================================-->
+    <title>G-TPX | Admin</title>
 
-    <!-- ?===============================================-->
-    <!--  ?  ICONOS-->
-    <!-- ?===============================================-->
+    <!-- ===============================================-->
+    <!--    ICONOS-->
+    <!-- ===============================================-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -42,16 +42,16 @@
     />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- ?===============================================-->
-    <!--  ?  CSS LINKEADO-->
-    <!-- ?===============================================-->
-    <link href="/assets/css/NewContactUs.css" rel="stylesheet" />
+    <!-- ===============================================-->
+    <!--    CSS LINKEADO-->
+    <!-- ===============================================-->
+    <link href="assets/css/NewProducts.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- *===============================================-->
-    <!--  *  NAVBAR FIJA-->
-    <!-- *===============================================-->
+    <!-- ===============================================-->
+    <!--    NAVBAR FIJA-->
+    <!-- ===============================================-->
     <main class="main" id="top">
       <nav
         class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"
@@ -85,9 +85,14 @@
               <li class="nav-item px-2">
                 <a class="nav-link fw-medium" href="/NewAboutUs.html">Dev Team</a>
               </li>
+                            <li class="nav-item px-2">
+                <a class="nav-link fw-medium" href="/NewProducts.html">
+                  Admin
+                </a>
+              </li>
             </ul>
             <form class="d-flex">
-              <a class="text-1000" href="/NewContac.html">
+              <a class="text-1000" href="/NewContactUs.html">
                 <svg
                   class="feather feather-phone me-3"
                   xmlns="http://www.w3.org/2000/svg"
@@ -146,129 +151,50 @@
           </div>
         </div>
       </nav>
-    <!-- *===============================================-->
-    <!--  *  FINAL DE LA NAVBAR-->
-    <!-- *===============================================-->
-
-    <!-- ?===============================================-->
-    <!--  ?  INICIO DEL FORMULARIO-->
-    <!-- ?===============================================-->
-       <div class="container">
-        <div class="row flex-center">
-          <div class="col-12mb-10">
-            <div class="d-flex align-items-center flex-column">
-              
-
-              <div class="container1">
-                <!--Section: Contact v.2-->
-                <section class="mb-4">
-                <!--Section heading-->
-                <h2 class="h1-responsivefont-weight-boldtext-centermy-4">
-                Contáctanos
-                </h2>
-                <!--Section description-->
-                <p class="text-centerw-responsivemx-automb-5">
-                ¿Tienes alguna duda o sugerencia? Por favor escríbenos a continuación en nuestro formulario de contacto, estamos
-                deseosos de asistirte y atenderte.
-                </p>
-                <div class="row">
-                <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
-                <form>
-
-                <!--Grid row-->
-                <div class="row">
-                <!--Grid column-->
-                <div class="col-md-6">
-                <label for="nombre" class="">Nombre(s)</label>
-                <div class="md-form mb-0">
-                <input type="text" id="nombre" name="nombre" class="prueba" placeholder="Ej. María Ruiz" required />
-                </div>
-                </div>
-                
-                <!--Grid column-->
-                <div class="col-md-6">
-                <label for="apellido" class="">Apellidos</label>
-                <div class="md-form mb-0">
-                <input type="text" id="apellido" name="apellido" class="prueba" placeholder="Ej. Hernández Cisneros" required/>
-                </div>
-                </div>
-                </div>
-
-                <!--Grid row-->
-                <div class="row">
-                  <!--Grid column-->
-                  <div class="col-md-12">
-                  <label for="telefono" class="">Teléfono</label>
-                  <div class="md-form mb-0">
-                  <input type="tel" id="telefono" name="telefono" class="prueba" placeholder="(lada)8181234567"
-                  required />
-                  </div>
-                  </div>
-                  </div>
-
-                <!--Grid row-->
-                <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                <label for="correo" class="">Correo</label>
-                <div class="md-form mb-0">
-                <input type="email" id="correo" name="correo" class="prueba" placeholder="alguien@correo.com"
-                required />
-                </div>
-                </div>
-                </div>
-               
-                <!--Grid row-->
-                <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                <label for="message">Escribe un mensaje</label>
-                <div class="md-form">
-                <textarea type="text" id="message" name="message" rows="2" class="pruebamd-textarea"></textarea>
-                </div>
-                </div>
-                </div>
-                <div class="row">
-                <!--Grid column-->
-                <div class="col">
-                <button type="submit" onclick="guardarDatos()" value="enviar">
-                  <div class="svg-wrapper-1">
-                    <div class="svg-wrapper">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                        <path fill="none" d="M0 0h24v24H0z"></path>
-                        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <span>Enviar</span>
-                </button>
-                </div>
-                </form>
-                </div>
-                </div>
-                </div>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    <!-- ?===============================================-->
-    <!--  ?  INICIO DEL FORMULARIO-->
-    <!-- ?===============================================-->
-
-    <!--?===============================================-->
-    <!-- ?   INICIO DEL FOOTER-->
-    <!-- ?===============================================-->
+    <!-- ===============================================-->
+    <!--    FINAL DE LA NAVBAR-->
+    <!-- ===============================================-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- ===============================================-->
+    <!--    INICIO DEL FOOTER-->
+    <!-- ===============================================-->
       <section class="py-0 pt-7">
         <div class="container">
           <div class="row">
             <div class="col-6 col-lg-2 mb-3">
-              <h5 class="lh-lg fw-bold text-1000">Compañía</h5>
+              <h5 class="lh-lg fw-bold text-1000">Compañia</h5>
               <ul class="list-unstyled mb-md-4 mb-lg-0">
                 <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="/NewAboutUs.html">
+                  <a class="text-800 text-decoration-none" href="#!">
                     Dev Team
+                  </a>
+                </li>
+                                <li class="lh-lg">
+                  <a class="text-800 text-decoration-none" href="/NewProducts.html">
+                    Admin
                   </a>
                 </li>
               </ul>
@@ -278,11 +204,11 @@
               <ul class="list-unstyled mb-md-4 mb-lg-0">
                 <li class="lh-lg">
                   <a class="text-800 text-decoration-none" href="/NewContactUs.html">
-                  Contáctanos
+                  Contactanos
                   </a>
                 </li>
                 <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="#!">Métodos de pago</a>
+                  <a class="text-800 text-decoration-none" href="#!">Meteodos de pago</a>
                 </li>
                 <li class="lh-lg">
                   <a class="text-800 text-decoration-none" href="#!">
@@ -293,7 +219,7 @@
             </div>
             <div class="col-sm-6 col-lg-auto ms-auto">
               <h5 class="lh-lg fw-bold text-1000">
-                Regístrate a Nuestro Newsletter
+                Registrate a Nuestro Newsletter
               </h5>
               <div class="row input-group-icon mb-5">
                 <div class="col-12">
@@ -385,7 +311,6 @@
                 <a href="#!">
                   <span class="me-4" data-feather="instagram"></span>
                 </a>
-
                 <a href="#!">
                   <span class="me-4" data-feather="twitter"></span>
                 </a>
@@ -394,14 +319,14 @@
           </div>
         </div>
       </section>
-    <!-- ?===============================================-->
-    <!--? FINAL DEL FOOTER-->
-    <!-- ?===============================================-->
+    <!-- ===============================================-->
+    <!--FINAL DEL FOOTER-->
+    <!-- ===============================================-->
     </main>
  
-    <!-- !===============================================-->
-    <!--  !  JavaScripts-->
-    <!-- !===============================================-->
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
     <script src="vendors/@popperjs/popper.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.min.js"></script>
     <script src="vendors/is/is.min.js"></script>
@@ -411,9 +336,6 @@
       feather.replace();
     </script>
     <script src="assets/js/theme.js"></script>
-
-    <!--!FORMULARIO DE JAVASCRIPT-->
-    <script src="/assets/js/ContactUS.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
