@@ -3721,12 +3721,14 @@ fieldset:disabled .btn {
   color: #616161;
   background-color: #F9FAFD;
   border-color: #F9FAFD;
+  border-radius: 5px;
 }
 
 .btn-light:hover {
-  color: #616161;
-  background-color: #fafbfd;
-  border-color: #fafbfd;
+  color: #fafbfd;
+  background-color: #292929;
+  border-color: #292929;
+  transition: 0.7s ;
 }
 
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -9127,7 +9129,7 @@ fieldset:disabled .btn {
 }
 
 .pt-7 {
-  padding-top: 5rem !important;
+  padding-top: 0rem !important;
 }
 
 .pt-8 {
@@ -17298,7 +17300,7 @@ pre, code {
 section {
   position: relative;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 0;
 }
 
 @media (min-width: 992px) {
@@ -18429,194 +18431,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-bottom-color: #757575;
 }
 
-/*?CARDS*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cards {
-  flex-wrap: wrap;
-}
-.cards .card {
-  width: 290px;
-  height: 500px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
-  margin: 30px;
-  border: none;
-  cursor: pointer;
-  transition: all ease-out 0.5s;
-}
 
-/*?COLORES DE LAS CARDS*/
-.card1 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card2 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card3 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card4 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card5 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card6 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card7 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card8 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-.card9 {
-  background: linear-gradient(#62e38f, #d5ebe7);
-}
-/*?COLORES DE LAS CARDS*/
 
-.cards:hover .card {
-  filter: blur(0px);
-  transform: scale(1);
-  opacity: 0.5;
-}
-.cards .card:hover {
-  filter: blur(0px);
-  transform: scale(1.1);
-  opacity: 1;
-}
-.content {
-  flex-direction: column;
-  padding: 10px;
-}
-.content img {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-.content h1 {
-  font-size: 20px;
-  padding-top: 8px;
-}
-.content p {
-  text-align: center;
-  font-size: 14px;
-  padding: 10px;
-}
 
-/**BOTONES*/
-.btn-cssbuttons {
-  --btn-color: #010305;
-  position: relative;
-  padding: 12px 28px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1;
-  color: white;
-  background: none;
-  border: none;
-  outline: none;
-  overflow: hidden;
-  cursor: pointer;
-  filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
-  transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
 
-.btn-cssbuttons::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: var(--btn-color);
-  border-radius: 24px;
-  transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
 
-.btn-cssbuttons span,
-.btn-cssbuttons span span {
-  display: inline-flex;
-  vertical-align: middle;
-  transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-
-.btn-cssbuttons span {
-  transition-delay: 0.05s;
-}
-
-.btn-cssbuttons span:first-child {
-  padding-right: 7px;
-}
-
-.btn-cssbuttons span span {
-  margin-left: 8px;
-  transition-delay: 0.1s;
-}
-
-.btn-cssbuttons ul {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  transform: translateY(-50%);
-}
-
-.btn-cssbuttons ul li {
-  flex: 1;
-}
-
-.btn-cssbuttons ul li a {
-  display: inline-flex;
-  vertical-align: middle;
-  transform: translateY(55px);
-  transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-}
-
-.btn-cssbuttons ul li a:hover {
-  opacity: 0.5;
-}
-
-.btn-cssbuttons:hover::before {
-  transform: scale(1.2);
-}
-
-.btn-cssbuttons:hover span,
-.btn-cssbuttons:hover span span {
-  transform: translateY(-55px);
-}
-
-.btn-cssbuttons:hover ul li a {
-  transform: translateY(0);
-}
-
-.btn-cssbuttons:hover ul li:nth-child(1) a {
-  transition-delay: 0.15s;
-}
-
-.btn-cssbuttons:hover ul li:nth-child(2) a {
-  transition-delay: 0.2s;
-}
-
-.btn-cssbuttons:hover ul li:nth-child(3) a {
-  transition-delay: 0.25s;
-}
-/*?BOTONES */

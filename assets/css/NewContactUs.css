@@ -9094,8 +9094,8 @@ fieldset:disabled .btn {
 }
 
 .py-11 {
-  padding-top: 15rem !important;
-  padding-bottom: 15rem !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .pt-0 {
@@ -17297,7 +17297,7 @@ pre, code {
 
 section {
   position: relative;
-  padding-top: 4rem;
+  padding-top: 1rem;
   padding-bottom: 0;
 }
 
@@ -18429,6 +18429,88 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-bottom-color: #757575;
 }
 
+/**FORMULARIO*/
+.row{
+  width: 100%;
+  margin: 0px 20px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-responsivefont-weight-boldtext-centermy-4{
+  color: black;
+  margin: 20px 20px 40px 0px;
+  text-align: center;
+}
+
+.text-centerw-responsivemx-automb-5{
+  margin: 50px 30px 50px 30px;
+}
+
+.prueba{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  border-bottom: solid black;
+}
+
+
+textarea{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  border-bottom: solid black;
+  height: 200px;
+}
+
+textarea:focus{
+  outline: none !important;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px black;
+
+}
+
+textarea:hover{
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+/*Esto cambia el formulario excepto escribe un mensaje */
+.prueba:focus {
+  outline: none !important;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px black;
+
+}
+
+.prueba:hover{
+  transition: 0.2s;
+  border-radius: 5px
+}
+
+.col-md-12{
+  margin: 0px;
+}
+
+.container1{
+  height: 1150px;
+}
+
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*?BOTON ENVIAR*/
 button {
  font-family: inherit;
@@ -18481,74 +18563,6 @@ button:active {
  to {
   transform: translateY(-0.1em);
  }
-}
-
-/**FORMULARIO*/
-.row{
-  width: 100%;
-  margin: 20px 20px 50px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.h1-responsivefont-weight-boldtext-centermy-4{
-  color: black;
-  margin: 20px 20px 40px 0px;
-  text-align: center;
-}
-
-.text-centerw-responsivemx-automb-5{
-  margin: 50px 30px 50px 0px;
-}
-
-.prueba{
-  border-top-style: hidden;
-  border-left-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
-  width: 100%;
-  margin: 25px 0px 0px 0px;
-  border-bottom: solid black;
-}
-
-
-textarea{
-  border-top-style: hidden;
-  border-left-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
-  width: 100%;
-  margin: 25px 0px 0px 0px;
-  border-bottom: solid black;
-  height: 200px;
-}
-
-textarea:focus{
-  outline: none !important;
-  transition: 0.2s;
-  border-radius: 5px;
-  box-shadow: 4px 4px 0px black;
-
-}
-
-textarea:hover{
-  transition: 0.2s;
-  border-radius: 5px;
-}
-
-/*Esto cambia el formulario excepto escribe un mensaje */
-.prueba:focus {
-  outline: none !important;
-  transition: 0.2s;
-  border-radius: 5px;
-  box-shadow: 4px 4px 0px black;
-
-}
-
-.prueba:hover{
-  transition: 0.2s;
-  border-radius: 5px
 }
 
 
