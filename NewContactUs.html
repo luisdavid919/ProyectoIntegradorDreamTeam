@@ -58,7 +58,7 @@
         data-navbar-on-scroll="data-navbar-on-scroll"
       >
         <div class="container">
-          <a class="navbar-brand d-inline-flex" href="/NewHome.html">
+          <a class="navbar-brand d-inline-flex" href="/NewHomeFuncional.html">
             <img
               class="d-inline-block"
               src="assets/img/gallery/logo.png"
@@ -98,7 +98,7 @@
                 <a class="nav-link fw-medium" href="#">Rebajas</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link fw-medium" href="/NewAboutUs.html">Dev Team</a>
+                <a class="nav-link fw-medium" href="/NewAboutUs.html">Acerca de nosotros</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -170,7 +170,7 @@
     <!-- ?===============================================-->
        <div class="container">
         <div class="row flex-center">
-          <div class="col-12 mb-10">
+          <div class="col-12mb-10">
             <div class="d-flex align-items-center flex-column">
               
 
@@ -190,42 +190,50 @@
                 <!--Grid column-->
                 <div class="col-md-9 mb-md-0 mb-5">
                 <form>
-                <!--id="contact-form" 
-                name="contact-form"
-                action="mail.php"
-                method="POST"
-                -->
+
                 <!--Grid row-->
                 <div class="row">
                 <!--Grid column-->
                 <div class="col-md-6">
-                <label for="name" class="">Nombre(s)</label>
+                <label for="nombre" class="">Nombre(s)</label>
                 <div class="md-form mb-0">
-                <input type="text" id="name" name="name" class="prueba" placeholder="Ej. María Ruiz" required />
+                <input type="text" id="nombre" name="nombre" class="prueba" placeholder="Ej. María Ruiz" required />
                 </div>
                 </div>
-                <!--Grid column-->
+                
                 <!--Grid column-->
                 <div class="col-md-6">
-                <label for="name" class="">Apellidos</label>
+                <label for="apellido" class="">Apellidos</label>
                 <div class="md-form mb-0">
                 <input type="text" id="apellido" name="apellido" class="prueba" placeholder="Ej. Hernández Cisneros" required/>
                 </div>
                 </div>
-                <!--Grid column-->
                 </div>
-                <!--Grid row-->
+
                 <!--Grid row-->
                 <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12">
+                  <label for="telefono" class="">Teléfono</label>
+                  <div class="md-form mb-0">
+                  <input type="tel" id="telefono" name="telefono" class="prueba" placeholder="(lada)8181234567"
+                  required />
+                  </div>
+                  </div>
+                  </div>
+
+                <!--Grid row-->
+                <div class="row">
+                <!--Grid column-->
                 <div class="col-md-12">
-                <label for="subject" class="">Correo</label>
+                <label for="correo" class="">Correo</label>
                 <div class="md-form mb-0">
                 <input type="email" id="correo" name="correo" class="prueba" placeholder="alguien@correo.com"
                 required />
                 </div>
                 </div>
                 </div>
-                <!--Grid row-->
+               
                 <!--Grid row-->
                 <div class="row">
                 <!--Grid column-->
@@ -238,7 +246,8 @@
                 </div>
                 <div class="row">
                 <!--Grid column-->
-                <button type="submit" value="enviar">
+                <div class="col">
+                <button type="submit" onclick="guardarDatos()" value="enviar">
                   <div class="svg-wrapper-1">
                     <div class="svg-wrapper">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -270,11 +279,11 @@
         <div class="container">
           <div class="row">
             <div class="col-6 col-lg-2 mb-3">
-              <h5 class="lh-lg fw-bold text-1000">Compañia</h5>
+              <h5 class="lh-lg fw-bold text-1000">Compañía</h5>
               <ul class="list-unstyled mb-md-4 mb-lg-0">
                 <li class="lh-lg">
                   <a class="text-800 text-decoration-none" href="/NewAboutUs.html">
-                    Dev Team
+                    Acerca de Nosotros
                   </a>
                 </li>
               </ul>
@@ -284,11 +293,11 @@
               <ul class="list-unstyled mb-md-4 mb-lg-0">
                 <li class="lh-lg">
                   <a class="text-800 text-decoration-none" href="/NewContactUs.html">
-                  Contactanos
+                  Contáctanos
                   </a>
                 </li>
                 <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="#!">Meteodos de pago</a>
+                  <a class="text-800 text-decoration-none" href="#!">Métodos de pago</a>
                 </li>
                 <li class="lh-lg">
                   <a class="text-800 text-decoration-none" href="#!">
@@ -299,7 +308,7 @@
             </div>
             <div class="col-sm-6 col-lg-auto ms-auto">
               <h5 class="lh-lg fw-bold text-1000">
-                Registrate a Nuestro Newsletter
+                Regístrate a Nuestro Newsletter
               </h5>
               <div class="row input-group-icon mb-5">
                 <div class="col-12">
@@ -417,6 +426,9 @@
       feather.replace();
     </script>
     <script src="assets/js/theme.js"></script>
+
+    <!--!FORMULARIO DE JAVASCRIPT-->
+    <script src="/assets/js/ContactUS.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
