@@ -147,18 +147,11 @@ formulario.addEventListener('submit', (e) => {
 
 
 
-//    function confirmar(){
-//  if (document.getElementById('formulario').checke {
-//    alertify
-//   .alert("Registro Exitoso", function(){
-//      alertify.success('Aceptar');
-//    });
-//    }
-//    else{
-//    alertify
-//    .alert("Registro Fallido", function(){
-//  	alertify.error('Aceptar');
-//    });
-//    }
-//  }
+    function confirmar(){
+  
+    alertify
+   .alert("Registro Exitoso", function(){
+      alertify.success('Aceptar');
+    });
+    }
 
