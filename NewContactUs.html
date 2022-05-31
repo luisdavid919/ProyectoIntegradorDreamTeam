@@ -1,442 +1,375 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Dream Style | Contáctanos</title>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ?===============================================-->
-    <!--   ? ICONOS-->
-    <!--? ===============================================-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/img/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/img/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/img/favicons/favicon-16x16.png"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/img/favicons/favicon.ico"
-    />
-    <link rel="manifest" href="assets/img/favicons/manifest.json" />
-    <meta
-      name="msapplication-TileImage"
-      content="assets/img/favicons/mstile-150x150.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
+  <!-- JavaScript -->
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
-    <!-- ?===============================================-->
-    <!--  ?  CSS LINKEADO-->
-    <!-- ?===============================================-->
-    <link href="./assets/css/NewContactUs.css" rel="stylesheet" />
-  </head>
+  <!-- CSS -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+  <!-- Default theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+  <!-- Semantic UI theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css" />
+  <!-- Bootstrap theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
 
-  <body>
-    <!-- *===============================================-->
-    <!--   * NAVBAR FIJA-->
-    <!-- *===============================================-->
-    <main class="main" id="top">
-      <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"
-        data-navbar-on-scroll="data-navbar-on-scroll"
-      >
+  <!-- 
+    RTL version
+-->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.rtl.min.css" />
+  <!-- Default theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.rtl.min.css" />
+  <!-- Semantic UI theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.rtl.min.css" />
+  <!-- Bootstrap theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.rtl.min.css" />
+
+
+  <title>Dream Style | Contáctanos</title>
+
+  <!-- ?===============================================-->
+  <!--   ? ICONOS-->
+  <!--? ===============================================-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico" />
+  <link rel="manifest" href="assets/img/favicons/manifest.json" />
+  <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- ?===============================================-->
+  <!--  ?  CSS LINKEADO-->
+  <!-- ?===============================================-->
+  <link href="./assets/css/NewContactUs.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- *===============================================-->
+  <!--   * NAVBAR FIJA-->
+  <!-- *===============================================-->
+  <main class="main" id="top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block"
+      data-navbar-on-scroll="data-navbar-on-scroll">
+      <div class="container">
+        <a class="navbar-brand d-inline-flex" href="/NewHomeFuncional.html">
+          <img class="d-inline-block" src="assets/img/gallery/logo.png" alt="logo" />
+          <span class="text-1000 fs-0 fw-bold ms-2">G-TPX</span>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link fw-medium active" aria-current="page" href="./SeccionMujer.html">
+                Mujer
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link fw-medium" href="./seccionHombres.html">Hombre</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link fw-medium" href="#rebajas">Rebajas</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link fw-medium" href="/NewAboutUs.html">
+                Dev Team
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a class="text-1000" href="/NewContactUs.html">
+              <svg class="feather feather-phone me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+            </a>
+            <a class="text-1000" href="#!">
+              <svg class="feather feather-shopping-cart me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+            </a>
+            <a class="text-1000" href="/NewLogin.html">
+              <svg class="feather feather-user me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section class="py-11 bg-light-gradient border-bottom border-white border-5">
+      <section class="py-0 pt-7">
+
+        <!-- *===============================================-->
+        <!--   * FIN NAVBAR FIJA-->
+        <!-- *===============================================-->
+
+
+        <!-- ?===============================================-->
+        <!--  ?  INICIO DEL FORMULARIO-->
+        <!-- ?===============================================-->
         <div class="container">
-          <a class="navbar-brand d-inline-flex" href="/NewHomeFuncional.html">
-            <img
-              class="d-inline-block"
-              src="assets/img/gallery/logo.png"
-              alt="logo"
-            />
-            <span class="text-1000 fs-0 fw-bold ms-2">Dream Style</span>
-          </a>
-          <button
-            class="navbar-toggler collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item px-2">
-                <a
-                  class="nav-link fw-medium active"
-                  aria-current="page"
-                  href="./SeccionMujer.html"
-                >
-                  Mujer
-                </a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link fw-medium" href="#nav-men">Hombre</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link fw-medium" href="#rebajas">Rebajas</a>
-              </li>
-              <li class="nav-item px-2">
-                <a class="nav-link fw-medium" href="/NewAboutUs.html">
+          <div class="row flex-center">
+            <div class="col-12mb-10">
+              <div class="d-flex align-items-center flex-column">
+
+
+                <div class="container1">
+                  <!--Section: Contact v.2-->
+                  <section class="mb-4">
+                    <!--Section heading-->
+                    <h2 class="h1-responsivefont-weight-boldtext-centermy-4">
+                      Contáctanos
+                    </h2>
+                    <!--Section description-->
+                    <p class="text-centerw-responsivemx-automb-5">
+                      ¿Tienes alguna duda o sugerencia? Por favor escríbenos a continuación en nuestro formulario de
+                      contacto, estamos
+                      deseosos de asistirte y atenderte.
+                    </p>
+                    <div class="row">
+                      <!--Grid column-->
+                      <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="BTenviarContacto">
+
+                          <!--Grid row-->
+                          <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                              <label for="nombre" class="">Nombre(s)</label>
+                              <div class="md-form mb-0">
+                                <input type="text" id="nombre" name="nombre" class="prueba" placeholder="Ej. María Ruiz"
+                                  required />
+                              </div>
+                            </div>
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                              <label for="apellido" class="">Apellidos</label>
+                              <div class="md-form mb-0">
+                                <input type="text" id="apellido" name="apellido" class="prueba"
+                                  placeholder="Ej. Hernández Cisneros" required />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--Grid row-->
+                          <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                              <label for="telefono" class="">Teléfono</label>
+                              <div class="md-form mb-0">
+                                <input type="tel" id="telefono" name="telefono" class="prueba"
+                                  placeholder="(lada)8181234567" required />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--Grid row-->
+                          <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                              <label for="correo" class="">Correo</label>
+                              <div class="md-form mb-0">
+                                <input type="email" id="correo" name="correo" class="prueba"
+                                  placeholder="alguien@correo.com" required />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--Grid row-->
+                          <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                              <label for="message">Escribe un mensaje</label>
+                              <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                  class="pruebamd-textarea"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <!--Grid column-->
+                            <div class="col">
+                              <button type="button" onclick="guardarDatos()" value="enviar">
+                                <div class="svg-wrapper-1">
+                                  <div class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                      <path fill="none" d="M0 0h24v24H0z"></path>
+                                      <path fill="currentColor"
+                                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                      </path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <span>Enviar</span>
+                              </button>
+                            </div>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+      </section>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!-- ?===============================================-->
+      <!--  ?  FINAL DEL FORMULARIO-->
+      <!-- ?===============================================-->
+
+
+      <!--?===============================================-->
+      <!-- ?   INICIO DEL FOOTER-->
+      <!-- ?===============================================-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-2 mb-3">
+            <h5 class="lh-lg fw-bold text-1000">Compañía</h5>
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg">
+                <a class="text-800 text-decoration-none" href="/NewAboutUs.html">
                   Dev Team
                 </a>
               </li>
             </ul>
-            <form class="d-flex">
-              <a class="text-1000" href="/NewContactUs.html">
-                <svg
-                  class="feather feather-phone me-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
-                  ></path>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5 class="lh-lg fw-bold text-1000">Ayuda &amp; Soporte</h5>
+            <ul class="list-unstyled mb-md-4 mb-lg-0">
+              <li class="lh-lg">
+                <a class="text-800 text-decoration-none" href="/NewContactUs.html">
+                  Contáctanos
+                </a>
+              </li>
+              <li class="lh-lg">
+                <a class="text-800 text-decoration-none" href="#!">Métodos de pago</a>
+              </li>
+              <li class="lh-lg">
+                <a class="text-800 text-decoration-none" href="#!">
+                  Devoluciones
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-lg-auto ms-auto">
+            <h5 class="lh-lg fw-bold text-1000">
+              Regístrate a Nuestro Newsletter
+            </h5>
+            <div class="row input-group-icon mb-5">
+              <div class="col-12">
+                <input class="form-control input-box" type="email" placeholder="Introduce tu correo"
+                  aria-label="email" />
+                <svg class="bi bi-arrow-right-short input-box-icon" xmlns="http://www.w3.org/2000/svg" width="23"
+                  height="23" fill="#424242" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z">
+                  </path>
                 </svg>
-              </a>
-              <a class="text-1000" href="#!">
-                <svg
-                  class="feather feather-shopping-cart me-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <circle cx="9" cy="21" r="1"></circle>
-                  <circle cx="20" cy="21" r="1"></circle>
-                  <path
-                    d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
-                  ></path>
-                </svg>
-              </a>
-              <a class="text-1000" href="/NewLogin.html">
-                <svg
-                  class="feather feather-user me-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </a>
-            </form>
+              </div>
+            </div>
+            <p class="text-800">
+              <svg class="feather feather-phone me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <span class="text-800">+3930219390</span>
+            </p>
+            <p class="text-800">
+              <svg class="feather feather-mail me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span class="text-800">something@gmail.com</span>
+            </p>
           </div>
         </div>
-      </nav>
-      <section
-        class="py-11 bg-light-gradient border-bottom border-white border-5"
-      ><section class="py-0 pt-7">
+        <div class="border-bottom border-3"></div>
+        <div class="row flex-center my-3">
+          <div class="col-md-6 order-1 order-md-0">
+            <p class="my-2 text-1000 text-center text-md-start">
+              <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                fill="#EB6453" viewBox="0 0 16 16">
+                <path
+                  d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z">
+                </path>
+              </svg>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="text-center text-md-end">
+              <a href="#!">
+                <span class="me-4" data-feather="facebook"></span>
+              </a>
+              <a href="#!">
+                <span class="me-4" data-feather="instagram"></span>
+              </a>
 
-<!-- *===============================================-->
-    <!--   * FIN NAVBAR FIJA-->
-    <!-- *===============================================-->
-      
-
-  <!-- ?===============================================-->
-    <!--  ?  INICIO DEL FORMULARIO-->
-    <!-- ?===============================================-->
-    <div class="container">
-      <div class="row flex-center">
-        <div class="col-12mb-10">
-          <div class="d-flex align-items-center flex-column">
-            
-
-            <div class="container1">
-              <!--Section: Contact v.2-->
-              <section class="mb-4">
-              <!--Section heading-->
-              <h2 class="h1-responsivefont-weight-boldtext-centermy-4">
-              Contáctanos
-              </h2>
-              <!--Section description-->
-              <p class="text-centerw-responsivemx-automb-5">
-              ¿Tienes alguna duda o sugerencia? Por favor escríbenos a continuación en nuestro formulario de contacto, estamos
-              deseosos de asistirte y atenderte.
-              </p>
-              <div class="row">
-              <!--Grid column-->
-              <div class="col-md-9 mb-md-0 mb-5">
-              <form>
-
-              <!--Grid row-->
-              <div class="row">
-              <!--Grid column-->
-              <div class="col-md-6">
-              <label for="nombre" class="">Nombre(s)</label>
-              <div class="md-form mb-0">
-              <input type="text" id="nombre" name="nombre" class="prueba" placeholder="Ej. María Ruiz" required />
-              </div>
-              </div>
-              
-              <!--Grid column-->
-              <div class="col-md-6">
-              <label for="apellido" class="">Apellidos</label>
-              <div class="md-form mb-0">
-              <input type="text" id="apellido" name="apellido" class="prueba" placeholder="Ej. Hernández Cisneros" required/>
-              </div>
-              </div>
-              </div>
-
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                <label for="telefono" class="">Teléfono</label>
-                <div class="md-form mb-0">
-                <input type="tel" id="telefono" name="telefono" class="prueba" placeholder="(lada)8181234567"
-                required />
-                </div>
-                </div>
-                </div>
-
-              <!--Grid row-->
-              <div class="row">
-              <!--Grid column-->
-              <div class="col-md-12">
-              <label for="correo" class="">Correo</label>
-              <div class="md-form mb-0">
-              <input type="email" id="correo" name="correo" class="prueba" placeholder="alguien@correo.com"
-              required />
-              </div>
-              </div>
-              </div>
-             
-              <!--Grid row-->
-              <div class="row">
-              <!--Grid column-->
-              <div class="col-md-12">
-              <label for="message">Escribe un mensaje</label>
-              <div class="md-form">
-              <textarea type="text" id="message" name="message" rows="2" class="pruebamd-textarea"></textarea>
-              </div>
-              </div>
-              </div>
-              <div class="row">
-              <!--Grid column-->
-              <div class="col">
-              <button type="submit" onclick="guardarDatos()" value="enviar">
-                <div class="svg-wrapper-1">
-                  <div class="svg-wrapper">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                      <path fill="none" d="M0 0h24v24H0z"></path>
-                      <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <span>Enviar</span>
-              </button>
-              </div>
-              </form>
-              </div>
-              </div>
-              </div>
-              </section>
+              <a href="#!">
+                <span class="me-4" data-feather="twitter"></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  <!-- ?===============================================-->
-  <!--  ?  FINAL DEL FORMULARIO-->
-  <!-- ?===============================================-->
-
-
-    <!--?===============================================-->
-    <!-- ?   INICIO DEL FOOTER-->
-    <!-- ?===============================================-->
-
-        <div class="container">
-          <div class="row">
-            <div class="col-6 col-lg-2 mb-3">
-              <h5 class="lh-lg fw-bold text-1000">Compañía</h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="/NewAboutUs.html">
-                    Dev Team
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-6 col-lg-2 mb-3">
-              <h5 class="lh-lg fw-bold text-1000">Ayuda &amp; Soporte</h5>
-              <ul class="list-unstyled mb-md-4 mb-lg-0">
-                <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="/NewContactUs.html">
-                  Contáctanos
-                  </a>
-                </li>
-                <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="#!">Métodos de pago</a>
-                </li>
-                <li class="lh-lg">
-                  <a class="text-800 text-decoration-none" href="#!">
-                    Devoluciones
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-lg-auto ms-auto">
-              <h5 class="lh-lg fw-bold text-1000">
-                Regístrate a Nuestro Newsletter
-              </h5>
-              <div class="row input-group-icon mb-5">
-                <div class="col-12">
-                  <input
-                    class="form-control input-box"
-                    type="email"
-                    placeholder="Introduce tu correo"
-                    aria-label="email"
-                  />
-                  <svg
-                    class="bi bi-arrow-right-short input-box-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="23"
-                    height="23"
-                    fill="#424242"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <p class="text-800">
-                <svg
-                  class="feather feather-phone me-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
-                  ></path>
-                </svg>
-                <span class="text-800">+3930219390</span>
-              </p>
-              <p class="text-800">
-                <svg
-                  class="feather feather-mail me-3"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                  ></path>
-                  <polyline points="22,6 12,13 2,6"></polyline>
-                </svg>
-                <span class="text-800">something@gmail.com</span>
-              </p>
-            </div>
-          </div>
-          <div class="border-bottom border-3"></div>
-          <div class="row flex-center my-3">
-            <div class="col-md-6 order-1 order-md-0">
-              <p class="my-2 text-1000 text-center text-md-start">
-                <svg
-                  class="bi bi-suit-heart-fill"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="15"
-                  height="15"
-                  fill="#EB6453"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"
-                  ></path>
-                </svg>
-              </p>
-            </div>
-            <div class="col-md-6">
-              <div class="text-center text-md-end">
-                <a href="#!">
-                  <span class="me-4" data-feather="facebook"></span>
-                </a>
-                <a href="#!">
-                  <span class="me-4" data-feather="instagram"></span>
-                </a>
-
-                <a href="#!">
-                  <span class="me-4" data-feather="twitter"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    </section>
     <!-- ?===============================================-->
     <!--? FINAL DEL FOOTER-->
     <!-- ?===============================================-->
-    </main>
+  </main>
 
 
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="./assets/vendors/@popperjs/popper.min.js"></script>
-    <script src="./assets/vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="./assets/vendors/is/is.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="/assets/vendors/feather-icons/feather.min.js"></script>
-    <script>
-      feather.replace();
-    </script>
-    <script src="./assets/js/theme.js"></script>
-    <script src="/assets/js/ContactUS.js"></script>
-    
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
-      rel="stylesheet"
-    />
-  </body>
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+  <script src="./assets/vendors/@popperjs/popper.min.js"></script>
+  <script src="./assets/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="./assets/vendors/is/is.min.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+  <script src="/assets/vendors/feather-icons/feather.min.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("ipPYGsV16VjuYEVyH");
+    })()
+  </script>
+
+
+  <script>
+    feather.replace();
+  </script>
+  <script src="./assets/js/theme.js"></script>
+  <script src="/assets/js/ContactUS.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
+</body>
+
 </html>
