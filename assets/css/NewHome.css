@@ -15,7 +15,7 @@
 body {
   margin: 0;
   font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #424242;
@@ -4095,7 +4095,7 @@ fieldset:disabled .btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 3rem;
   font-size: 1rem;
-  border-radius: 0;
+  border-radius: 1px;
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -4627,6 +4627,8 @@ fieldset:disabled .btn {
 
 .nav-link:hover, .nav-link:focus {
   color: #1a1a1a;
+  box-shadow: 5px 5px 5px #08b1b1;
+  transition: 0.5s;
 }
 
 .nav-link.disabled {
@@ -4648,8 +4650,9 @@ fieldset:disabled .btn {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #F5F5F5 #F5F5F5 #EEEEEE;
+  border-color: #F5F5F5 #F5F5F5 #cf1616;
   isolation: isolate;
+  background-color: black;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -8523,7 +8526,8 @@ fieldset:disabled .btn {
 }
 
 .mb-6 {
-  margin-bottom: 4rem !important;
+  margin-bottom: 3rem !important;
+  margin-top: 4rem;
 }
 
 .mb-7 {
