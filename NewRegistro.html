@@ -80,7 +80,7 @@
               src="assets/img/gallery/logo.png"
               alt="logo"
             />
-            <span class="text-1000 fs-0 fw-bold ms-2">Dream Style</span>
+            <span class="text-1000 fs-0 fw-bold ms-2">G-TPX</span>
           </a>
           <button
             class="navbar-toggler collapsed"
@@ -96,11 +96,13 @@
         <div class="font-medium self-center text-xl sm:text-3xl text-gray-800">
           Registrate Ahora
         </div>
+              <!-- </div> -->
 
-
+<!-- Aqui inicia el formulario-->
+      <form id="formulario" class="form-group formulario">
         <div class="mt-10">
           
-          <div class="flex flex-col mb-5 formulario__grupo" id="grupo__nombre">
+          <div class="flex flex-col mb-5 formulario__grupo"id="grupo__nombre">
             <label for="nombre" class="mb-1 text-xs tracking-wide text-gray-600 formulario__label">
               Nombre:
             </label>
@@ -108,20 +110,21 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-                <i class="fas fa-user text-black"></i>
               </div>
               <div class="formulario__grupo-input">
               <input
                 id="nombre"
                 type="text"
                 name="nombre"
+                required
                 class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Ingresa tu nombre"
-                required
+                
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
             </div>
-              <small class="form-text text-muted">El nombre tiene que ser de 4 a 10 caracteres.</small>
+              <small class="form-text text-muted">El nombre tiene que ser de 3 a 12 caracteres.</small>
             
         </div>
           </div>
@@ -136,7 +139,6 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-                <i class="fas fa-user text-black"></i>
               </div>
               <div class="formulario__grupo-input">
               <input
@@ -147,9 +149,10 @@
                 placeholder="Ingresa tu apellido paterno"
                 required
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
         </div>
-        <small class="form-text text-muted">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</small>    
+        <small class="form-text text-muted">El usuario tiene que ser de 6 a 12 dígitos y solo puede contener numeros, letras y guion bajo.</small>    
         </div>
       </div>
             
@@ -163,7 +166,6 @@
             <div
               class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
             >
-              <i class="fas fa-user text-black"></i>
             </div>
             <div class="formulario__grupo-input">
             <input
@@ -174,34 +176,37 @@
               placeholder="Ingresa tu apellido materno"
               required
             />
-            <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+            <i class="formulario__validacion-estado fa-solid fa-xmark"
+            style="color:#E68810"></i>
       </div>
-      <small class="form-text text-muted">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</small>    
+      <small class="form-text text-muted">El usuario tiene que ser de 6 a 12 dígitos y solo puede contener numeros, letras y guion bajo.</small>    
       </div>
         </div>
 
             <!-- AQUI EMPIEZA EL TELEFONO -->
 
-          <div class="flex flex-col mb-5">
-            <label for="phone" class="mb-1 text-xs tracking-wide text-gray-600">
-              Telefono:
+          <div class="flex flex-col mb-5 formulario__grupo" id="grupo__telefono">
+            <label for="phone" class="mb-1 text-xs tracking-wide text-gray-600 formulario__label">
+              Teléfono:
             </label>
             <div class="relative">
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
               </div>
-              <div class="formulario__grupo-input dropdown">
-
+              <div class="formulario__grupo-input">
               <input
                 id="phone"
-                type="tel"
+                type="text"
                 name="phone"
-                class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 form-control"
+                class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Ingresa tu telefono"
                 required
               />
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
             </div>
+            <small class="form-text text-muted">El teléfono solo puede contener numeros y el maximo son 12 dígitos.</small>
           </div>
           </div>
 
@@ -218,7 +223,6 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-              <i class="fas fa-at"></i>
               </div>
               <div class="formulario__grupo-input">
               <input
@@ -229,7 +233,8 @@
                 class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Ingresa tu email"
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
         </div>
         <small class="form-text text-muted">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</small>
     </div>
@@ -247,7 +252,6 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-              <i class="fas fa-at"></i>
               </div>
               <div class="formulario__grupo-input">
               <input
@@ -258,7 +262,8 @@
                 class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Reingresa tu Email"
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
         </div>
         <small class="form-text text-muted">*Ambos correos deben coincidir</small>
     </div>
@@ -278,14 +283,14 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-                <i class="fas fa-at text-black"></i>
               </div>
               <div class="formulario__grupo-input">
               <input id="usuario" type="text" name="usuario"required class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Usuario"
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
 				</div>
-        <small class="form-text text-muted">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</small>
+        <small class="form-text text-muted">El usuario tiene que ser de 6 a 12 dígitos y solo puede contener numeros, letras y guion bajo.</small>
             </div>
           </div>
 
@@ -306,9 +311,6 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-                <span>
-                  <i class="fas fa-lock text-black"></i>
-                </span>
               </div>
               <div class="formulario__grupo-input">
               <input
@@ -319,7 +321,8 @@
                 class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Crea tu contraseña"
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
 				</div>
 				<small class="form-text text-muted">La contraseña tiene que ser de 8 a 12 dígitos.</small>
 			</div>
@@ -339,9 +342,6 @@
               <div
                 class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
               >
-                <span>
-                  <i class="fas fa-lock text-black"></i>
-                </span>
               </div>
               <div class="formulario__grupo-input">
               <input
@@ -352,7 +352,8 @@
                 class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Confirma tu contraseña"
               />
-              <i class="formulario__validacion-estado fas fa-times-circle" style="color:#1ee62b"></i>
+              <i class="formulario__validacion-estado fa-solid fa-xmark"
+              style="color:#E68810"></i>
 				</div>
 				<small class="form-text text-muted">Ambas contraseñas deben ser iguales.</small>
 			</div>
@@ -400,11 +401,11 @@
                 </svg>
               </span>
             </button>
-          </div>
+          </div> <!-- Aqui acaba el boton del formulario-->
         </div>
-
+        </form>
         </div>
-      </div>
+      <!-- </div> -->
       <div class="flex justify-center items-center mt-6">
         <a
           href="#"
@@ -422,6 +423,7 @@
         </a>
       </div>
     </div>
+  </div>
 
 
     <script src="./assets/js/intlTelInput.js"></script>
@@ -453,10 +455,11 @@
     });
   </script>
 
-    <script src="./assets/js/Registro.js"></script>
+    <!-- <script src="./assets/js/Registro.js"></script> -->
     <script src="./assets/js/Tailwind.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <script src="./assets/js/Registroformulario.js"></script>
@@ -466,8 +469,6 @@
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/js/intlTelInput.min.js"></script> -->
 
 <!-- <script src="./assets/js/Registroprueba.js"></script> -->
-
-
 
   </body>
 </html>
