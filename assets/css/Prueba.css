@@ -2,10 +2,16 @@ h1{
     text-align: center;
 }
 
+<<<<<<< HEAD
 .boton{
     
     text-align: center;
     background-color: #4CAF50 !important;
+=======
+#botonenviar{
+
+    background-color: #5cb85c !important;
+>>>>>>> 1962640dfaa7e066f48bb7a5f7c0789609ffdad0
     
     
 
@@ -14,6 +20,7 @@ h1{
 /* -webkit-appearance: button;
 background-color: solid;
 background-image: none; */
+<<<<<<< HEAD
 .intl-tel-input {
     display: table-cell;
   }
@@ -30,3 +37,11 @@ background-image: none; */
     border-bottom-right-radius: 0;
   }
  
+=======
+
+#botonreset{
+    background-color: #f0ad4e !important;
+    
+}
+
+>>>>>>> 1962640dfaa7e066f48bb7a5f7c0789609ffdad0
