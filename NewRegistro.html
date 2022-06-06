@@ -93,8 +93,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-        <div class="font-medium self-center text-xl sm:text-3xl text-gray-800">
-          Registrate Ahora
+        <div class="font-medium self-center text-xl sm:text-3xl text-gray-800 text-center">
+          Regístrate Ahora
         </div>
               <!-- </div> -->
 
@@ -103,7 +103,7 @@
         <div class="mt-10">
           
           <div class="flex flex-col mb-5 formulario__grupo"id="grupo__nombre">
-            <label for="nombre" class="mb-1 text-xs tracking-wide text-gray-600 formulario__label">
+            <label for="nombre" class=" mb-1 text-xs tracking-wide text-gray-600 formulario__label">
               Nombre:
             </label>
             <div class="relative">
@@ -122,7 +122,7 @@
                 
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
             </div>
               <small class="form-text text-muted">El nombre tiene que ser de 3 a 12 caracteres.</small>
             
@@ -150,7 +150,7 @@
                 required
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
         </div>
         <small class="form-text text-muted">El usuario tiene que ser de 6 a 12 dígitos y solo puede contener numeros, letras y guion bajo.</small>    
         </div>
@@ -177,7 +177,7 @@
               required
             />
             <i class="formulario__validacion-estado fa-solid fa-xmark"
-            style="color:#E68810"></i>
+            style="color:black"></i>
       </div>
       <small class="form-text text-muted">El usuario tiene que ser de 6 a 12 dígitos y solo puede contener numeros, letras y guion bajo.</small>    
       </div>
@@ -185,30 +185,31 @@
 
             <!-- AQUI EMPIEZA EL TELEFONO -->
 
-          <div class="flex flex-col mb-5 formulario__grupo" id="grupo__telefono">
+          <div class="flex flex-col mb-5 formulario__grupo" id="grupo__phone">
             <label for="phone" class="mb-1 text-xs tracking-wide text-gray-600 formulario__label">
               Teléfono:
             </label>
             <div class="relative">
               <div
-                class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400"
-              >
+                class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
               </div>
               <div class="formulario__grupo-input">
               <input
                 id="phone"
-                type="text"
+                type="tel"
                 name="phone"
                 class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400 formulario__input"
                 placeholder="Ingresa tu telefono"
                 required
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
             </div>
-            <small class="form-text text-muted">El teléfono solo puede contener numeros y el maximo son 12 dígitos.</small>
+            <small class="form-text text-muted">El teléfono solo puede contener numeros y son 12 dígitos.</small>
           </div>
           </div>
+
+          
 
           <!-- AQUI TERMINA EL TELEFONO -->
 
@@ -234,7 +235,7 @@
                 placeholder="Ingresa tu email"
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
         </div>
         <small class="form-text text-muted">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</small>
     </div>
@@ -263,7 +264,7 @@
                 placeholder="Reingresa tu Email"
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
         </div>
         <small class="form-text text-muted">*Ambos correos deben coincidir</small>
     </div>
@@ -288,7 +289,7 @@
               <input id="usuario" type="text" name="usuario"required class="text-sm placeholder-gray-500 pl-10 pr-4 rounded-2xl border border-gray-400 w-full py-2 focus:outline-none focus:border-blue-400" placeholder="Usuario"
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
 				</div>
         <small class="form-text text-muted">El usuario tiene que ser de 6 a 12 dígitos y solo puede contener numeros, letras y guion bajo.</small>
             </div>
@@ -322,7 +323,7 @@
                 placeholder="Crea tu contraseña"
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
 				</div>
 				<small class="form-text text-muted">La contraseña tiene que ser de 8 a 12 dígitos.</small>
 			</div>
@@ -353,7 +354,7 @@
                 placeholder="Confirma tu contraseña"
               />
               <i class="formulario__validacion-estado fa-solid fa-xmark"
-              style="color:#E68810"></i>
+              style="color:black"></i>
 				</div>
 				<small class="form-text text-muted">Ambas contraseñas deben ser iguales.</small>
 			</div>
@@ -364,7 +365,7 @@
 
           <!-- AQUI EMPIEZA EL TERMINOS Y CONDICIONES -->
 
-          <div class="form-group text-center" id="condiciones">
+          <!-- <div class="form-group text-center formulario__grupo" id="grupo__terminos">
             <div class="form-check">
               <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
               <label for="invalidCheck3" class="font-weight-bolder">
@@ -372,17 +373,24 @@
               </label>
             </div>
             <br><br>
+            </div> -->
+
+            <div class="formulario__grupo" id="grupo__terminos">
+              <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos" required>
+                Al registrarte, aceptas los términos y <a class="ligaterminos" href="http://www.magloft.com/publications/6474/terms" target="_blank">condiciones del sitio.</a>
+              </label>
             </div>
 
           <!-- AQUI TERMINA EL TERMINOS Y CONDICIONES -->
 
 
 
-          <div class="flex w-full">
+          <div class="flex w-full formulario__grupo formulario__grupo-btn-enviar">
             <button
               id="register-btn"
               type="submit"
-              class="flex mt-2 items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-black rounded-2xl py-2 w-full transition duration-150 ease-in"
+              class="flex mt-2 items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-black rounded-2xl py-2 w-full transition duration-150 ease-in formulario__btn"
             >
               <span class="mr-2 uppercase">Registrarse</span>
               <span>
@@ -468,7 +476,7 @@
 <!-- <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script> -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/js/intlTelInput.min.js"></script> -->
 
-<!-- <script src="./assets/js/Registroprueba.js"></script> -->
+<script src="./assets/js/Registroprueba.js"></script>
 
   </body>
 </html>
