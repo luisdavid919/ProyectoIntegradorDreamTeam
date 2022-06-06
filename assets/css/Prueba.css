@@ -44,4 +44,38 @@ background-image: none; */
     
 }
 
+<<<<<<< HEAD
 >>>>>>> 1962640dfaa7e066f48bb7a5f7c0789609ffdad0
+=======
+
+input:invalid:required {
+    border: 2px solid rgb(255, 0, 0) !important;
+  }
+  
+    /* input:invalid:required {
+    background-image: linear-gradient(to right, rgb(219, 17, 51), rgb(243, 155, 13));
+  }  
+  
+  input:valid:required {
+    background-image: linear-gradient(to right, rgb(108, 219, 17), rgb(17, 84, 13));
+  }   */
+
+  input:valid:required {
+    border: 2px solid rgb(45, 235, 11) !important;
+  }
+
+  label {
+      font-size: 20px !important;
+  }
+
+  small {
+      /* background-color: #5993e4 !important; */
+      text-align: center !important;
+      /* color: rgb(204, 170, 45) !important; */
+      font-size: 16px !important;
+    }
+
+#ligaterminos {
+    color: blue !important;
+}
+>>>>>>> 0953114b4c25cef0b6894e5e718db2d8d7f84b86

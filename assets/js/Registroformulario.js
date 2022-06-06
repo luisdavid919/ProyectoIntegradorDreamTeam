@@ -15,7 +15,9 @@ const expresiones = {
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	//telefono: /^\d{7,14}$/ // 7 a 14 numeros.
 
-	phone: /^\d{7,12}$/ // 7 a 14 numeros.
+	 phone: /^[+]+\d{10,12}$/, //7 a 14 numeros.
+
+	//phone: ^(\+0?1\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$
 }
 
 const campos = {
@@ -25,7 +27,7 @@ const campos = {
     apellidomat: false,
 	password: false,
 	correo: false,
-	phone: false,
+	phone: false
 }
 
 const validarFormulario = (e) => {
@@ -150,31 +152,31 @@ formulario.addEventListener('submit', (e) => {
 
 
 
-function confirmar(){
-    
-	alertify
-	.alert("Registro Exitoso", function(){
-	  alertify.success('Aceptar');
-	});
-	}
-	document.addEventListener("DOMContentLoaded", function(e) {
-	
+// function confirmar(){
+
+// 	alertify
+// 	.alert("Registro Exitoso", function(){
+// 	  alertify.success('Aceptar');
+// 	});
+// 	}
+// 	document.addEventListener("DOMContentLoaded", function(e) {
+
 		var miForm = document.getElementById("formulario");
-		miForm.onsubmit = function(e) {
-		  e.preventDefault();
+ 		miForm.onsubmit = function(e) {
+ 		  e.preventDefault();
 		  var formData = new FormData(this);
 		  var jsonData = {};
 		  for (var [k, v] of formData) {
 			jsonData[k] = v;
-		  }
-		  console.log(jsonData);
-		}
-		miForm:JSON.stringify
-	  });
+ 		  }
+	  console.log(jsonData);
+ 		}
+		miForm:JSON.stringify;
+	  
 
 
 //     function confirmar(){
-  
+
 //     alertify
 //    .alert("Registro Exitoso", function(){
 //       alertify.success('Aceptar');
