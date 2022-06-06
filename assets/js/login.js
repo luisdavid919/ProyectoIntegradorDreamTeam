@@ -8,6 +8,7 @@ const cek_reg_sandi = localStorage.getItem('register_sandi')
 const cek_log_email = localStorage.getItem('login_email')
 const cek_log_sandi = localStorage.getItem('login_sandi')
 
+
 if (cek_reg_name, cek_reg_email, cek_reg_sandi, cek_log_email, cek_log_sandi != null) {
     window.location = 'home.html'
 }
@@ -36,3 +37,19 @@ login_button.addEventListener('click', function () {
     }
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
