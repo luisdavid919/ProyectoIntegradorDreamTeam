@@ -2,9 +2,16 @@ h1{
     text-align: center;
 }
 
+<<<<<<< HEAD
+.boton{
+    
+    text-align: center;
+    background-color: #4CAF50 !important;
+=======
 #botonenviar{
 
     background-color: #5cb85c !important;
+>>>>>>> 1962640dfaa7e066f48bb7a5f7c0789609ffdad0
     
     
 
@@ -13,12 +20,33 @@ h1{
 /* -webkit-appearance: button;
 background-color: solid;
 background-image: none; */
+<<<<<<< HEAD
+.intl-tel-input {
+    display: table-cell;
+  }
+  .intl-tel-input .selected-flag {
+    z-index: 4;
+  }
+  .intl-tel-input .country-list {
+    z-index: 5;
+  }
+  .input-group .intl-tel-input .form-control {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+  }
+ 
+=======
 
 #botonreset{
     background-color: #f0ad4e !important;
     
 }
 
+<<<<<<< HEAD
+>>>>>>> 1962640dfaa7e066f48bb7a5f7c0789609ffdad0
+=======
 
 input:invalid:required {
     border: 2px solid rgb(255, 0, 0) !important;
@@ -50,3 +78,4 @@ input:invalid:required {
 #ligaterminos {
     color: blue !important;
 }
+>>>>>>> 0953114b4c25cef0b6894e5e718db2d8d7f84b86

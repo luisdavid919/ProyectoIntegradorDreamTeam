@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de registro numero 3</title>
+    <title>Registro</title>
+</head>
+<body class="container-fluid">
+    <h1 class="display-5  bg-success text-white">Regístrate</h1>
+    <br><br>
+
+    <div class="form-group">
+
+        <form id="formulario" class="formulario">
+        
+
+            <div class="formulario__grupo" id="grupo__usuario">
+				<label for="usuario" class="formulario__label">Usuario</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Playera99">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+
+
+
+
+
+
+        <div class="formulario__grupo" id="grupo__nombre">    
+        <label for="nombre" class="formulario__label">Ingresa tu nombre(s):</label>
+        <div class="formulario__grupo-input">
+        <input type="text" class="formulario__input"   placeholder="Ejemplo Marco" name="nombre" id="nombre" required>
+        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El nombre tiene que ser de 6 a 10 caracteres.</p>    
+        </div>
+
+        
+        <div class="formulario__grupo" id="grupo__apellidopat">
+        <label for="apellidopat" class="formulario__label">Ingresa tu apellido paterno:</label>
+        <div class="formulario__grupo-input">
+        <input type="text" class="formulario__input"  placeholder="Ejemplo Rodriguez" name="apellidopat" id="apellidopat" required>
+        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>    
+        </div>
+
+        <div class="formulario__grupo" id="grupo__apellidomat">
+            <label for="apellidomat" class="formulario__label">Ingresa tu apellido materno:</label>
+            <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input"  placeholder="Ejemplo Garcia" name="apellidomat" id="apellidomat" required>
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El usuario tiene que ser de 4 a 10 dígitos y solo puede contener numeros, letras y guion bajo.</p>    
+            </div>
+
+        
+
+          <label for="formGroupExampleInput">Ingresa tu telefono:</label>
+          <div class="input-group">
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+          </div>
+          <br>
+          
+            <div class="formulario__grupo" id="grupo__correo">
+            <label for="correo" class="formulario__label">Ingresa tu correo electrónico:</label>
+            <div class="formulario__grupo-input">
+            <input type="email" class="formulario__input" name="correo" id="correo" placeholder="tucorreo@dominio.com" required>
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+    </div>    
+
+          
+    <!-- AQUI NOS FALTA VALIDAR EL EMAIL -->
+    
+    <!-- <label for="exampleInputEmail1">Confirma tu correo electrónico:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <small id="emailHelp" class="form-text text-muted">*No compartiremos tu información con nadie ajeno a la empresa</small> -->
+          
+
+
+
+            <div class="formulario__grupo" id="grupo__password">
+            <label for="password" class="formulario__label" >Crea tu Contraseña:</label>
+            <div class="formulario__grupo-input">
+            <input type="password" class="formulario__input" name="password" id="password"  required>
+          <i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+			</div>
+
+
+
+            <div class="formulario__grupo" id="grupo__password2">
+            <label for="password2" class="formulario__label">Confirma tu Contraseña nuevamente:</label>
+            <div class="formulario__grupo-input">
+            <input type="password" class="formulario__input" name="password2" id="password2"  required>
+            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+			</div>
+          <br>
+
+          <div class="form-group text-center" id="condiciones">
+            <div class="form-check">
+              <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+              <label for="invalidCheck3" class="font-weight-bolder">
+                Al registrarte, aceptas términos y <a href="http://www.magloft.com/publications/6474/terms" target="_blank">condiciones del sitio.</a>
+              </label>
+              <!-- <div  id="invalidCheck3Feedback" class="font-weight-bolder">
+                Necesitas aceptar las condiciones de uso.
+              </div> -->
+            </div>
+            <br><br>
+
+          
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <input class="btn btn-lg btn-warning" id="botonreset" type="reset" value="Reset">
+                
+              </div>
+
+              <div class="col formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="btn btn-lg btn-success formulario__btn" id="botonenviar" onclick= >Enviar</button>
+                <!-- <p class="formulario__mensaje-exito"id="formulario__mensaje-exito">Formulario enviado exitosamente!</p> -->
+            </div>
+              
+            
+        </form>
+
+        
+
+
+    <script src="./registro.js"></script>
+</body>
+</html>
