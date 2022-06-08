@@ -1,13 +1,4 @@
-/*.producto{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px #000;
-    margin-bottom: 20px;
-}*/
+
 .producto {
   width: 70%;
   height: auto;
@@ -60,7 +51,6 @@ h1 {
 
 button {
  
-  width: 100%;
   text-align: center;
   font-family: inherit;
   font-size: 20px;
