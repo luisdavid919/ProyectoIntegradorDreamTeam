@@ -1,9 +1,9 @@
 function addItem(item) {
     const itemHTML =
-      '<div class="card" style="width: 500px; ">\n' +
+      '<div class="card" style="width:400px; height:650px";>\n' +
       '    <img src="' +
       item.img +
-      '" class="card-img-top" alt="image" style="width:500px;">\n' +
+      '" class="card-img-top" alt="image" style="width:100%; height:500px";>\n' +
       '    <div class="card-body">\n' +
       '        <h5 class="card-title">' +
       item.name +
@@ -78,3 +78,13 @@ function addItem(item) {
     img: "./assets/img/shirt-10.jpg",
     description: "Playera estilo de prueba",
   });
+   addItem({
+     name: "T-Shirt 7",
+     img: "./assets/img/shirt-07.jpg",
+     description: "Playera estilo de prueba",
+   });
+     addItem({
+       name: "T-Shirt 4",
+       img: "./assets/img/shirt-04.jpg",
+       description: "Playera estilo de prueba",
+     });
