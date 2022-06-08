@@ -3481,7 +3481,7 @@ fieldset:disabled .btn {
   color: #FFA15C;
   background-color: #292929;
   border-color: #292929;
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -5282,7 +5282,7 @@ fieldset:disabled .btn {
   height: 100%;
   background-position: center;
   background-size: cover;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .card-img:hover,
@@ -9107,7 +9107,7 @@ fieldset:disabled .btn {
 
 .py-11 {
   padding-top: 2rem !important;
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 0rem !important;
 }
 
 .pt-0 {
@@ -9119,7 +9119,7 @@ fieldset:disabled .btn {
 }
 
 .pt-2 {
-  padding-top: 0.25rem !important;
+  padding-top: 0.5rem !important;
 }
 
 .pt-3 {

@@ -40,3 +40,4 @@ register_button.addEventListener('click', function () {
     }
 
 })
+
