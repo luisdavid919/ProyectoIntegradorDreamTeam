@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('needs-validation');
-    // Loop over them and prevent submission
-    var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
-
-$("input").intlTelInput({
-    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.6/js/utils.js"
-  });
-=======
 (function(){/*
 
  Copyright The Closure Library Authors.
@@ -526,4 +502,3 @@ k("intlTelInputUtils.getValidationError",function(a,b){try{var c=K.g(),d=Z(c,a,b
 k("intlTelInputUtils.isValidNumber",function(a,b){try{var c=K.g(),d=Z(c,a,b);var e=Na(c,d),g=w(d,1),f=S(c,g,e),h;if(!(h=null==f)){var l;if(l="001"!=e){var z=U(c,e);if(null==z)throw Error("Invalid region code: "+e);var M=w(z,10);l=g!=M}h=l}if(h)var ua=!1;else{var Sa=R(d);ua=-1!=W(Sa,f)}return ua}catch(Ta){return!1}});k("intlTelInputUtils.numberFormat",{E164:0,INTERNATIONAL:1,NATIONAL:2,RFC3966:3});
 k("intlTelInputUtils.numberType",{FIXED_LINE:0,MOBILE:1,FIXED_LINE_OR_MOBILE:2,TOLL_FREE:3,PREMIUM_RATE:4,SHARED_COST:5,VOIP:6,PERSONAL_NUMBER:7,PAGER:8,UAN:9,VOICEMAIL:10,UNKNOWN:-1});k("intlTelInputUtils.validationError",{IS_POSSIBLE:0,INVALID_COUNTRY_CODE:1,TOO_SHORT:2,TOO_LONG:3,IS_POSSIBLE_LOCAL_ONLY:4,INVALID_LENGTH:5});})();
 
->>>>>>> 1962640dfaa7e066f48bb7a5f7c0789609ffdad0
