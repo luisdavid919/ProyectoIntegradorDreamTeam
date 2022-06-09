@@ -15,7 +15,7 @@
 body {
   margin: 0;
   font-family: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
   color: #424242;
@@ -2536,10 +2536,10 @@ progress {
 .form-control:focus {
   color: #424242;
   background-color: #fdfdfd;
-  border-color: #ffd0ae;
+  border-color: #eb30ca;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 161, 92, 0.25);
-  box-shadow: 0 0 0 0.25rem rgba(255, 161, 92, 0.25);
+  box-shadow: 0 0 0 0.25rem #eb30c962;
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -3472,13 +3472,13 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-  color: #272727;
-  background-color: #FFA15C;
-  border-color: #FFA15C;
+  color: #ebebeb;
+  background-color: #292929;
+  border-color: #292929;;
 }
 
 .btn-primary:hover {
-  color: #FFA15C;
+  color: #eb30ca;
   background-color: #292929;
   border-color: #292929;
   transition: 0.3s;
@@ -3725,9 +3725,10 @@ fieldset:disabled .btn {
 }
 
 .btn-light:hover {
-  color: #616161;
-  background-color: #fafbfd;
-  border-color: #fafbfd;
+  color: #fafbfd;
+  background-color: #292929;
+  border-color: #292929;
+  transition: 0.5s ; 
 }
 
 .btn-check:focus + .btn-light, .btn-light:focus {
@@ -4625,8 +4626,10 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #1a1a1a;
-}
+    color: #292929; 
+    box-shadow: 5px 5px 5px #eb30ca;
+    transition: 0.5s;
+  }
 
 .nav-link.disabled {
   color: #9E9E9E;
@@ -5068,19 +5071,20 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-brand {
-  color: #212121;
+  color: #292929;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: #212121;
+  color: #292929;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.95);
+  color: #292929;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.95);
+  background-color: #3c3c3c;
+  color: #eb30ca; 
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -5088,7 +5092,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active:focus {
   color: #212121;
 }
 
@@ -5108,7 +5112,7 @@ fieldset:disabled .btn {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: #212121;
+  color: #FFFEFE;
 }
 
 .navbar-dark .navbar-brand {
@@ -5282,14 +5286,14 @@ fieldset:disabled .btn {
   height: 100%;
   background-position: center;
   background-size: cover;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .card-img:hover,
 .card-img-top:hover,
 .card-img-bottom:hover {
   transform: scale(1.1);
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  box-shadow:  #eb30ca 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 .card-img,
@@ -7775,7 +7779,7 @@ fieldset:disabled .btn {
 }
 
 .border-white {
-  border-color: #FFFEFE !important;
+  border-color: #F5F5F5 !important;
 }
 
 .border-primary {
@@ -8355,8 +8359,8 @@ fieldset:disabled .btn {
 }
 
 .my-3 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .my-4 {
@@ -8469,7 +8473,7 @@ fieldset:disabled .btn {
 }
 
 .me-3 {
-  margin-right: 1rem !important;
+  margin-right: 0rem !important;
 }
 
 .me-4 {
@@ -9139,7 +9143,9 @@ fieldset:disabled .btn {
 }
 
 .pt-7 {
-  padding-top: 0rem !important;
+  padding-top: 10px !important;
+  background-color: #afafaf;
+  margin-top: 50px;
 }
 
 .pt-8 {
@@ -9847,6 +9853,19 @@ fieldset:disabled .btn {
 }
 
 .text-1000 {
+  color: #3c3c3c !important;
+  font-weight: 500;
+  padding: 8px;
+  transition: 0.5s; 
+}
+
+.text-1000:hover{
+  color: #eb30ca !important;
+  box-shadow: 5px 5px 5px #eb30ca;
+  background-color: #292929;
+}
+
+.text-1001 {
   color: #212121 !important;
 }
 
@@ -17316,7 +17335,7 @@ section {
 @media (min-width: 992px) {
   section {
     padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -17492,7 +17511,7 @@ ul {
 }
 
 .bg-light-gradient {
-  background: #ffffff;
+  background: #f5f5f5;
   opacity: 0.85;
 }
 
