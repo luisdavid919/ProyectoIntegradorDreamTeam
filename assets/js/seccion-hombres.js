@@ -78,3 +78,13 @@ function addItem(item) {
     img: "./assets/img/shirt-10.jpg",
     description: "Playera estilo de prueba",
   });
+   addItem({
+     name: "T-Shirt 7",
+     img: "./assets/img/shirt-07.jpg",
+     description: "Playera estilo de prueba",
+   });
+     addItem({
+       name: "T-Shirt 4",
+       img: "./assets/img/shirt-04.jpg",
+       description: "Playera estilo de prueba",
+     });

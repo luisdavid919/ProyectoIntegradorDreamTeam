@@ -1,9 +1,9 @@
 function addItem(item) {
   const itemHTML =
-    '<div class="card" style="width:400px; height:650px";>\n' +
+    '<div class="card" style="width: 500px; ">\n' +
     '    <img src="' +
     item.img +
-    '" class="card-img-top" alt="image" style="width:100%; height:500px";>\n' +
+    '" class="card-img-top" alt="image" style="width:500px;">\n' +
     '    <div class="card-body">\n' +
     '        <h5 class="card-title">' +
     item.name +
@@ -21,71 +21,60 @@ function addItem(item) {
 
 addItem({
   name: "T-Shirt 1",
-  img: "./assets/img/seccionMujer/playera7.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 2",
-  img: "./assets/img/seccionMujer/playera8.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 3",
-  img: "./assets/img/seccionMujer/playera4.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 4",
-  img: "./assets/img/seccionMujer/playera3.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 5",
-  img: "./assets/img/seccionMujer/playera5.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 6",
-  img: "./assets/img/seccionMujer/playera2.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 7",
-  img: "./assets/img/seccionMujer/playera8.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 8",
-  img: "./assets/img/seccionMujer/playera7.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
   name: "T-Shirt 9",
-  img: "./assets/img/seccionMujer/playera4.jpg",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
 
 addItem({
-  name: "Sudadera",
-  img: "./assets/img/seccionMujer/sudadera1.jpg",
-  description: "Playera estilo de prueba",
-});
-addItem({
-  name: "T-Shirt 8",
-  img: "./assets/img/seccionMujer/playera7.jpg",
-  description: "Playera estilo de prueba",
-});
-
-addItem({
-  name: "T-Shirt 9",
-  img: "./assets/img/seccionMujer/playera4.jpg",
+  name: "T-Shirt 10",
+  img: "./assets/img/Black_T_shirt_geometric_print_pattern_mockup.jpg",
   description: "Playera estilo de prueba",
 });
