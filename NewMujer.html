@@ -5,7 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>G-TPX | Home</title>
+    <link type="text/css" href="./assets/css/carrito.css" rel="stylesheet" />
+
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"
+        />
+
+        <script src="./assets/js/JS/jquery-3.5.1.min.js"></script>
+        <script src="./assets/js/JS/multislider.min.js"></script>
+
+    
+
+    <title>G-TPX | Mujer</title>
 
     <!-- ?===============================================-->
     <!--   ? ICONOS-->
@@ -145,9 +159,57 @@
                   ></path>
                 </svg>
               </a>
-            </form>
+
+              <!--!CARRITO COMPRAS-->
+
+              <div>
+                  <button id="menuButton"><i class="fas fa-bars"></i></button>
+
+              </div>
+              <div>
+                  
+                  <!--Shopping cart-->
+                  <div class="shopping-cart">
+                      <div class="sum-prices">
+                          <!--Shopping cart logo-->
+                          <i
+                              class="fas fa-shopping-cart shoppingCartButton"
+                          ></i>
+                          <!--The total prices of products in the shopping cart -->
+                          <h6 id="sum-prices"></h6>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
+          
+             
+          <div class="producstOnCart hide">
+              <div class="overlay"></div>
+              <div class="top">
+                  <button id="closeButton">
+                      <i class="fas fa-times-circle"></i>
+                  </button>
+                  <h3>Cart</h3>
+              </div>
+              <ul id="buyItems">
+                  <h4 class="empty">Your shopping cart is empty</h4>
+                  <!-- <li class="buyItem">
+          <img src="Images/producs-images/Mobiles/galaxynote10.png">
+          <div>
+            <h5>Products Name</h5>
+            <h6>$199</h6>
+            <div>
+              <button>-</button>
+              <span class="countOfProduct">1</span>
+              <button>+</button>
+            </div>
+          </div>
+        </li> -->
+              </ul>
+              <button class="btn checkout hidden">Check out</button>
+          </div>
+
+
       </nav>
       <section
         class="py-11 bg-light-gradient border-bottom border-white border-5"
@@ -159,10 +221,43 @@
       <!-- ?===============================================-->
       <!-- ?   INICIO PLAYERAS-->
       <!-- ?===============================================-->
-      
-      <section>
-        <div id="list-items"></div>
-      </section>
+     
+
+      <div class="product">
+        <div class="product-under">
+            <figure class="product-image">
+                <img
+                    src="Images/producs-images/Laptops/laptop-1.png"
+                    alt="popular labtops and computers"
+                />
+                <div class="product-over">
+                    <button
+                        class="btn btn-small addToCart"
+                        data-product-id="1"
+                    >
+                        <i class="fas fa-cart-plus"></i>Add
+                        to cart
+                    </button>
+                    <a
+                        href="detail_page.html"
+                        class="btn btn-small"
+                        >More Info</a
+                    >
+                </div>
+            </figure>
+            <div class="product-summary">
+                <h4 class="productName">Product 1</h4>
+                <span class="stars"></span>
+                <p>
+                    luctus quis et est. Integer pretium
+                    purus
+                </p>
+                <h6 class="price">
+                    $<span class="priceValue">999</span>
+                </h6>
+            </div>
+        </div>
+    </div>
       
       <!-- ?===============================================-->
       <!-- ?   FINAL PLAYERAS-->
@@ -289,6 +384,9 @@
   </script>
   <script src="./assets/js/theme.js"></script>
   <script src="./assets/js/SeccionMujer.js"></script>
+
+  <script src="./assets/js/JS/script.js"></script>
+        <script src="./assets/js/JS/shopping-cart.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;display=swap"
     rel="stylesheet" />

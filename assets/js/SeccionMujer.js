@@ -1,5 +1,6 @@
 function addItem(item) {
   const itemHTML =
+    
     '<div class="card" style="width:400px; height:650px";>\n' +
     '    <img src="' +
     item.img +
@@ -11,13 +12,14 @@ function addItem(item) {
     '        <p class="card-text">' +
     item.description +
     "</p>\n" +
-    '        <a href="#" class="btn btn-primary">Añadir</a>\n' +
+    '        <button class="btn btn-primary">Añadir</button>\n' +
     "    </div>\n" +
     "</div>\n" +
     "<br/>";
   const itemsContainer = document.getElementById("list-items");
   itemsContainer.innerHTML += itemHTML;
 }
+
 
 addItem({
   name: "T-Shirt 1",
