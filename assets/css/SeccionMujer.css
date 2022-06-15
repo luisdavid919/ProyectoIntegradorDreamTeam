@@ -42,7 +42,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Jost", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
   line-height: 1.2;
-  color: #212121;
+  color: #eb30cad9;
 }
 
 h1, .h1 {
@@ -77,7 +77,9 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: calc(1.269rem + 0.228vw);
-}
+    color: #efefef;
+} 
+
 
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -94,8 +96,9 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  color: white;
 }
 
 abbr[title],
@@ -3427,7 +3430,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 700;
   line-height: 1.5;
-  color: #424242;
+  color: #f9fafd;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -3435,7 +3438,7 @@ textarea.form-control-lg {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
+  background-color: #292929;
   border: 1px solid transparent;
   padding: 0.5rem 2.5rem;
   font-size: 1rem;
@@ -3456,13 +3459,15 @@ textarea.form-control-lg {
 }
 
 .btn:hover {
-  color: #424242;
+  color: #eb30ca;
+  background-color: #292929;
+  transition: 0.5s;
 }
 
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 161, 92, 0.25);
-  box-shadow: 0 0 0 0.25rem rgba(255, 161, 92, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem #eb30cad9;
+  box-shadow: 0 0 0 0.25rem #eb30c950;
 }
 
 .btn:disabled, .btn.disabled,
