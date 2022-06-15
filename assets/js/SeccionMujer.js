@@ -12,14 +12,13 @@ function addItem(item) {
     '        <p class="card-text">' +
     item.description +
     "</p>\n" +
-    '        <button class="btn btn-primary">Añadir</button>\n' +
+    '        <a class">Añadir</a>\n' +
     "    </div>\n" +
     "</div>\n" +
     "<br/>";
   const itemsContainer = document.getElementById("list-items");
   itemsContainer.innerHTML += itemHTML;
 }
-
 
 addItem({
   name: "T-Shirt 1",

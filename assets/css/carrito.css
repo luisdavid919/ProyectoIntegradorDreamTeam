@@ -1,49 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;700&display=swap");
 
 
-
-a {
-    color: black;
-    line-height: 1;
-}
-
-ul {
-    list-style-type: none;
-}
-
-button:focus {
-    outline: none;
-}
-
-/* clears the 'X' from Internet Explorer */
-input[type="search"]::-ms-clear {
-    display: none;
-    width: 0;
-    height: 0;
-}
-input[type="search"]::-ms-reveal {
-    display: none;
-    width: 0;
-    height: 0;
-}
-
-/* clears the 'X' from Chrome */
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-    display: none;
-}
-
-
-.navbar-top .logo {
-    position: absolute;
-    top: 30px;
-    left: 100px;
-    width: 150px;
-    height: 75px;
-}
-
 #menuButton {
     width: 45px;
     height: 40px;
@@ -61,37 +18,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 #menuButton:hover {
     color: #0d3c3f;
-}
-
-/* container of my account and shopping cart */
-.navbar-top > div {
-    margin-right: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-}
-
-/* My account text*/
-.account-text {
-    font-size: 0.9rem;
-    padding: 10px;
-}
-.account-btn {
-    background: none;
-    border: none;
-    font-size: 1.4rem;
-    cursor: pointer;
-}
-
-.account-btn:focus {
-    outline: none;
-}
-
-.navbar-top .shopping-cart {
-    margin-left: 10px;
-    font-size: 1.4rem;
 }
 
 .shopping-cart .sum-prices {
@@ -272,25 +198,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 
 
-.links {
-    position: relative;
-    display: inline-blo;
-    margin: auto;
-}
-
-.links ul {
-    display: flex;
-    flex-direction: row;
-}
-
-ul .nav-links {
-    cursor: pointer;
-    color: #333333;
-    text-align: center;
-    padding: 15px;
-}
-
-
 #hearderSlide {
     background-color: #49989e;
     height: 55vh;
@@ -333,7 +240,6 @@ ul .nav-links {
 .MS-left:focus {
     outline: none;
 }
-
 .MS-right:active,
 .MS-left:active {
     color: #fff;
@@ -357,7 +263,6 @@ ul .nav-links {
 }
 
 
-
 .product-container {
     max-width: 1600px;
     margin: auto;
@@ -371,7 +276,7 @@ ul .nav-links {
 
 .products {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
 
@@ -443,32 +348,3 @@ ul .nav-links {
     bottom: 0;
 }
 
-.stars {
-    position: relative;
-    width: 110px;
-    height: 40px;
-    display: block;
-    margin: auto;
-    padding: 5px;
-}
-
-.stars::after {
-    content: "\2605 \2605 \2605 \2605 \2605";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 65%;
-    display: block;
-    font-size: 1.4rem;
-    color: #dabd3b;
-    overflow: hidden;
-}
-
-.stars::before {
-    content: "\2606 \2606 \2606 \2606 \2606";
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 1.4rem;
-    color: #7e6c1f;
-}
