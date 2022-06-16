@@ -58,6 +58,7 @@
   </head>
 
   <body>
+    
     <!-- *===============================================-->
     <!--   * NAVBAR FIJA-->
     <!-- *===============================================-->
@@ -138,7 +139,19 @@
               </a>
 
               <a class="text-1000" href="#!">
-                <svg
+                 <!--Shopping cart-->
+                 <div>
+                  <div class="sum-prices">
+                      <!--Shopping cart logo-->
+                      <i
+                          class="fas fa-shopping-cart shoppingCartButton"
+                      ></i>
+                      <!--The total prices of products in the shopping cart -->
+                      <h6 id="sum-prices"></h6>
+                  </div>
+                  </div>
+              </a>
+                <!-- <svg
                   class="feather feather-shopping-cart me-3"
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -149,14 +162,14 @@
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                >
+                > 
                   <circle cx="9" cy="21" r="1"></circle>
                   <circle cx="20" cy="21" r="1"></circle>
                   <path
                     d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
                   ></path>
-                </svg>
-              </a>
+                </svg>-->
+             
 
               
                 <!--Navbar has two part the top one and the bottom one-->
@@ -168,23 +181,8 @@
                     </div>
                     <div>
                         
-                        <!--Shopping cart-->
-                        <div class="shopping-cart text-1000">
-                            <div class="sum-prices">
-                                <!--Shopping cart logo-->
-                                <i
-                                    class="fas fa-shopping-cart shoppingCartButton"
-                                ></i>
-                                <!--The total prices of products in the shopping cart -->
-                                <h6 id="sum-prices"></h6>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                
-                    
-                </div>
-                
+               
                 <div class="producstOnCart hide">
                     <div class="overlay"></div>
                     <div class="top">
@@ -225,43 +223,418 @@
       <!-- ?===============================================-->
       <!-- ?   INICIO PLAYERAS-->
       <!-- ?===============================================-->
+      <div class="container-fluid">
       <section class="main-section">
-        <div class="product-container">
-            <div class="products">
-                <div class="product">
-                    <div class="product-under">
-                        <figure class="product-image">
-                            <img
-                                src="./assets/img/seccionMujer/playera1.jpg"
-                                alt=""
-                            />
-                            <div class="product-over">
-                                <button
-                                    class="btn btn-small addToCart"
-                                    data-product-id="1"
-                                >
-                                    <i class="fas fa-cart-plus"></i>Añadir al carrito
+
+        <div class="product-container ">
+            
+            <div class="card-group products ">
+              <div class="product card ">
+                <div class="product-under ">
+                    <figure class="product-image">
+                        <img class="fluid"
+                            src="./assets/img/seccionMujer/playera1.jpg"
+                            alt=""
+                        />
+                        <div class="product-over">
+                            <button
+                                class="btn btn-small addToCart"
+                                data-product-id="1"
+                            >
+                                <i class="fas fa-cart-plus"></i>Añadir al carrito
+                
+                            </button>
                     
-                                </button>
-                        
-                            </div>
-                        </figure>
-                        <div class="product-summary">
-                            <h4 class="productName">Playera negra</h4>
-                            <p>
-                                Playera negra con logotipo gangsta
-                            </p>
-                            <h6 class="price">
-                                $<span class="priceValue">349</span>
-                            </h6>
                         </div>
+                    </figure>
+
+                    <div class="product-summary">
+                        <h4 class="productName">Playera negra</h4>
+                        <p>
+                            Playera negra con logotipo gangsta.
+                        </p>
+                        <h6 class="price">
+                            $<span class="priceValue">349</span>
+                        </h6>
                     </div>
                 </div>
+            </div>
+            
+
+            <div class="product card">
+              <div class="product-under">
+                  <figure class="product-image">
+                      <img class="fluid"
+                          src="./assets/img/seccionMujer/playera2.jpg"
+                          alt=""
+                      />
+                      <div class="product-over">
+                          <button
+                              class="btn btn-small addToCart"
+                              data-product-id="2"
+                          >
+                              <i class="fas fa-cart-plus"></i>Añadir al carrito
+              
+                          </button>
+                  
+                      </div>
+                  </figure>
+
+                  <div class="product-summary">
+                      <h4 class="productName">Playera Wonder Woman</h4>
+                      <p>
+                          Playera Wonder Woman color negra edición limitada.
+                      </p>
+                      <h6 class="price">
+                          $<span class="priceValue">399</span>
+                      </h6>
+                  </div>
+              </div>
+          </div>
+          
+
+          <div class="product card">
+            <div class="product-under">
+                <figure class="product-image">
+                    <img class="fluid"
+                        src="./assets/img/seccionMujer/playera3.jpg"
+                        alt=""
+                    />
+                    <div class="product-over">
+                        <button
+                            class="btn btn-small addToCart"
+                            data-product-id="3"
+                        >
+                            <i class="fas fa-cart-plus"></i>Añadir al carrito
+            
+                        </button>
+                
+                    </div>
+                </figure>
+
+                <div class="product-summary">
+                    <h4 class="productName">Playera Wonder Woman</h4>
+                    <p>
+                        Playera Wonder Woman color blanca edición limitada.
+                    </p>
+                    <h6 class="price">
+                        $<span class="priceValue">399</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-container ">
+            
+          <div class="card-group products ">
+            <div class="product card ">
+              <div class="product-under ">
+                  <figure class="product-image">
+                      <img class="fluid"
+                          src="./assets/img/seccionMujer/playera4.jpg"
+                          alt=""
+                      />
+                      <div class="product-over">
+                          <button
+                              class="btn btn-small addToCart"
+                              data-product-id="4"
+                          >
+                              <i class="fas fa-cart-plus"></i>Añadir al carrito
+              
+                          </button>
+                  
+                      </div>
+                  </figure>
+
+                  <div class="product-summary">
+                      <h4 class="productName">Playera Ellesse</h4>
+                      <p>
+                        Playera Ellesse cuello redondo color blanca con azul y rosa pastel.
+                      </p>
+                      <h6 class="price">
+                          $<span class="priceValue">349</span>
+                      </h6>
+                  </div>
+              </div>
+          </div>
+          
+
+          <div class="product card">
+            <div class="product-under">
+                <figure class="product-image">
+                    <img class="fluid"
+                        src="./assets/img/seccionMujer/playera5.jpg"
+                        alt=""
+                    />
+                    <div class="product-over">
+                        <button
+                            class="btn btn-small addToCart"
+                            data-product-id="5"
+                        >
+                            <i class="fas fa-cart-plus"></i>Añadir al carrito
+            
+                        </button>
+                
+                    </div>
+                </figure>
+
+                <div class="product-summary">
+                    <h4 class="productName">Playera Ellesse</h4>
+                    <p>
+                        Playera Ellesse cuello redondo color azul con rosa.
+                    </p>
+                    <h6 class="price">
+                        $<span class="priceValue">499</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product card">
+          <div class="product-under">
+              <figure class="product-image">
+                  <img class="fluid"
+                      src="./assets/img/seccionMujer/playera6.jpg"
+                      alt=""
+                  />
+                  <div class="product-over">
+                      <button
+                          class="btn btn-small addToCart"
+                          data-product-id="6"
+                      >
+                          <i class="fas fa-cart-plus"></i>Añadir al carrito
+          
+                      </button>
+              
+                  </div>
+              </figure>
+
+              <div class="product-summary">
+                  <h4 class="productName">Playera Ellesse exclusive</h4>
+                  <p>
+                    Playera Ellesse cuello redondo estampada.
+                  </p>
+                  <h6 class="price">
+                      $<span class="priceValue">399</span>
+                  </h6>
+              </div>
+          </div>
+      </div>
+
+      <div class="product-container ">
+            
+        <div class="card-group products ">
+          <div class="product card ">
+            <div class="product-under ">
+                <figure class="product-image">
+                    <img class="fluid"
+                        src="./assets/img/seccionMujer/playera7.jpg"
+                        alt=""
+                    />
+                    <div class="product-over">
+                        <button
+                            class="btn btn-small addToCart"
+                            data-product-id="7"
+                        >
+                            <i class="fas fa-cart-plus"></i>Añadir al carrito
+            
+                        </button>
+                
+                    </div>
+                </figure>
+
+                <div class="product-summary">
+                    <h4 class="productName">Playera Ellesse negra</h4>
+                    <p>
+                        Playera Ellesse cuello redondo color con letras de colores.
+                    </p>
+                    <h6 class="price">
+                        $<span class="priceValue">449</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product card">
+          <div class="product-under">
+              <figure class="product-image">
+                  <img class="fluid"
+                      src="./assets/img/seccionMujer/playera8.jpg"
+                      alt=""
+                  />
+                  <div class="product-over">
+                      <button
+                          class="btn btn-small addToCart"
+                          data-product-id="8"
+                      >
+                          <i class="fas fa-cart-plus"></i>Añadir al carrito
+          
+                      </button>
+              
+                  </div>
+              </figure>
+
+              <div class="product-summary">
+                  <h4 class="productName">Playera Ellesse rosa</h4>
+                  <p>
+                    Playera Ellesse cuello redondo Crop top color rosa.
+                  </p>
+                  <h6 class="price">
+                      $<span class="priceValue">499</span>
+                  </h6>
+              </div>
+          </div>
+      </div>
+      
+
+      <div class="product card">
+        <div class="product-under">
+            <figure class="product-image">
+                <img class="fluid"
+                    src="./assets/img/seccionMujer/playera6.jpg"
+                    alt=""
+                />
+                <div class="product-over">
+                    <button
+                        class="btn btn-small addToCart"
+                        data-product-id="9"
+                    >
+                        <i class="fas fa-cart-plus"></i>Añadir al carrito
+        
+                    </button>
+            
+                </div>
+            </figure>
+
+            <div class="product-summary">
+                <h4 class="productName">Playera Ellesse exclusive</h4>
+                <p>
+                    Playera Ellesse cuello redondo estampada.
+                </p>
+                <h6 class="price">
+                    $<span class="priceValue">399</span>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-container ">
+            
+        <div class="card-group products ">
+          <div class="product card ">
+            <div class="product-under ">
+                <figure class="product-image">
+                    <img class="fluid"
+                        src="./assets/img/seccionMujer/sudadera1.jpg"
+                        alt=""
+                    />
+                    <div class="product-over">
+                        <button
+                            class="btn btn-small addToCart"
+                            data-product-id="10"
+                        >
+                            <i class="fas fa-cart-plus"></i>Añadir al carrito
+            
+                        </button>
+                
+                    </div>
+                </figure>
+
+                <div class="product-summary">
+                    <h4 class="productName">Sudadera Blanca</h4>
+                    <p>
+                    Sudadera blanca con capucha logo en el lado.
+                    </p>
+                    <h6 class="price">
+                        $<span class="priceValue">599</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="product card">
+          <div class="product-under">
+              <figure class="product-image">
+                  <img class="fluid"
+                      src="./assets/img/seccionMujer/playera1.jpg"
+                      alt=""
+                  />
+                  <div class="product-over">
+                      <button
+                          class="btn btn-small addToCart"
+                          data-product-id="11"
+                      >
+                          <i class="fas fa-cart-plus"></i>Añadir al carrito
+          
+                      </button>
+              
+                  </div>
+              </figure>
+
+              <div class="product-summary">
+                  <h4 class="productName">Playera negra</h4>
+                  <p>
+                    Playera negra con logotipo gangsta.
+                  </p>
+                  <h6 class="price">
+                      $<span class="priceValue">349</span>
+                  </h6>
+              </div>
+          </div>
+      </div>
+      
+
+      <div class="product card">
+        <div class="product-under">
+            <figure class="product-image">
+                <img class="fluid"
+                    src="./assets/img/seccionMujer/playera2.jpg"
+                    alt=""
+                />
+                <div class="product-over">
+                    <button
+                        class="btn btn-small addToCart"
+                        data-product-id="12"
+                    >
+                        <i class="fas fa-cart-plus"></i>Añadir al carrito
+        
+                    </button>
+            
+                </div>
+            </figure>
+
+            <div class="product-summary">
+                <h4 class="productName">Playera Wonder Woman</h4>
+                <p>
+                    Playera Wonder Woman color negra edición limitada.
+                </p>
+                <h6 class="price">
+                    $<span class="priceValue">899</span>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+
+    
+        
+        
+
+
+        
+            <!-- <div class="products">
+
+
+                
                 
                 <div class="product">
                     <div class="product-under">
                         <figure class="product-image">
-                            <img
+                            <img class="fluid"
                                 src="./assets/img/seccionMujer/playera2.jpg"
                                 alt=""
                             />
@@ -291,7 +664,7 @@
                 <div class="product">
                     <div class="product-under">
                         <figure class="product-image">
-                            <img
+                            <img class="fluid"
                                 src="./assets/img/seccionMujer/playera3.jpg"
                                 alt=""
                             />
@@ -604,13 +977,16 @@
               </h6>
           </div>
       </div>
-  </div>
+  </div> -->
 
 
-            </div>
-        </div>
+            <!-- </div>
+        </div> -->
+      </div>
+</div>
     </section>
   
+
      <!-- ?===============================================-->
       <!-- ?   Final PLAYERAS-->
       <!-- ?===============================================-->
