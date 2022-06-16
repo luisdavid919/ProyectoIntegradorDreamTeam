@@ -18523,60 +18523,6 @@ textarea:hover{
 
 
 
-/*?BOTON ENVIAR*/
-button {
- font-family: inherit;
- font-size: 20px;
- background: black;
- color: white;
- padding: 0.7em 1em;
- padding-left: 0.9em;
- display: flex;
- align-items: center;
- border: none;
- border-radius: 16px;
- overflow: hidden;
- transition: all 0.2s;
-}
-
-button span {
- display: block;
- margin-left: 0.3em;
- transition: all 0.3s ease-in-out;
-}
-
-button svg {
- display: block;
- transform-origin: center center;
- transition: transform 0.3s ease-in-out;
-}
-
-button:hover .svg-wrapper {
- animation: fly-1 0.6s ease-in-out infinite alternate;
-}
-
-button:hover svg {
- transform: translateX(1.2em) rotate(45deg) scale(1.1);
-}
-
-button:hover span {
- transform: translateX(5em);
-}
-
-button:active {
- transform: scale(0.95);
-}
-
-@keyframes fly-1 {
- from {
-  transform: translateY(0.1em);
- }
-
- to {
-  transform: translateY(-0.1em);
- }
-}
-
 /*!================PLAYERAS===================*/
 
 #list-items {
@@ -18605,7 +18551,7 @@ button:active {
 
 .cards .card {
   width: 290px;
-  height: 500px;
+  height: 520px;
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
   margin: 30px;
@@ -18658,18 +18604,30 @@ button:active {
   --btn-color: #275efe;
   position: relative;
   padding: 16px 32px;
-  font-family: Roboto, sans-serif;
+  font-family: Jost,
+    "Open Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
   font-weight: 500;
   font-size: 16px;
   line-height: 1;
   color: white;
-  background: none;
+  background: #7bcbff;
   border: none;
   outline: none;
   overflow: hidden;
   cursor: pointer;
   filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
   transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  margin-bottom: 20px;
+  
 }
 
 .btn-cssbuttons::before {
@@ -18680,7 +18638,7 @@ button:active {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='73' height='18' preserveAspectRatio='none' viewBox='0 0 73 18'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1094%26quot%3b)' fill='none'%3e%3cpath d='M -0.7932033776502188%2c10 C 3.01%2c8.2 10.61%2c-0.2 18.20679662234978%2c1 C 25.81%2c2.2 29.61%2c14.8 37.206796622349785%2c16 C 44.81%2c17.2 48.61%2c7.8 56.206796622349785%2c7 C 63.81%2c6.2 67.61%2c12.4 75.20679662234978%2c12 C 82.81%2c11.6 94.65%2c5.4 94.20679662234978%2c5 C 93.77%2c4.6 77.24%2c9 73%2c10' stroke='rgba(19%2c 201%2c 135%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -11.479555277515676%2c14 C -7.68%2c12.8 -0.08%2c8.8 7.520444722484324%2c8 C 15.12%2c7.2 18.92%2c10.6 26.520444722484324%2c10 C 34.12%2c9.4 37.92%2c4.2 45.52044472248433%2c5 C 53.12%2c5.8 56.92%2c14 64.52044472248433%2c14 C 72.12%2c14 81.82%2c4.4 83.52044472248433%2c5 C 85.22%2c5.6 75.1%2c14.6 73%2c17' stroke='rgba(19%2c 201%2c 135%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1094'%3e%3crect width='73' height='18' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
   border-radius: 24px;
   transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -18760,5 +18718,6 @@ button:active {
 .colortext {
   color: black;
 }
+
 
 /*?BOTONES DE LAS CARDS*/
