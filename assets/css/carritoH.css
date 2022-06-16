@@ -1,6 +1,4 @@
 
-
-
 #menuButton {
     width: 45px;
     height: 40px;
@@ -41,7 +39,7 @@
 
 .shoppingCartButton:hover,
 .account:hover * {
-    color: #eb30ca; 
+    color: #00f3f3; 
 }
 
 .producstOnCart {
