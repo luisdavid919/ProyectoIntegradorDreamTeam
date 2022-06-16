@@ -5340,6 +5340,7 @@ fieldset:disabled .btn {
   .card-group > .card:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    /* margin: 0px 0px 0px 50px; */
   }
   .card-group > .card:not(:last-child) .card-img-top,
   .card-group > .card:not(:last-child) .card-header {
