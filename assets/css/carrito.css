@@ -264,7 +264,7 @@
 
 
 .product-container {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: auto;
     width: 88vw;
     position: relative;
@@ -342,7 +342,7 @@
     position: relative;
     padding: 10px;
     height: 180px;
-    background-color: #141414;
+    background-color: #000000;
     border-radius: 5px;
 }
 

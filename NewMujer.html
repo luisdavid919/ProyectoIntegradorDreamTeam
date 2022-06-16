@@ -58,6 +58,7 @@
   </head>
 
   <body>
+    
     <!-- *===============================================-->
     <!--   * NAVBAR FIJA-->
     <!-- *===============================================-->
@@ -138,7 +139,21 @@
               </a>
 
               <a class="text-1000" href="#!">
-                <svg
+                 <!--Shopping cart-->
+                 <div>
+                  <div class="sum-prices">
+                      <!--Shopping cart logo-->
+                      <i
+                          class="fas fa-shopping-cart shoppingCartButton"
+                      ></i>
+                      <!--The total prices of products in the shopping cart -->
+                      <h6 id="sum-prices"></h6>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </a>
+                <!-- <svg
                   class="feather feather-shopping-cart me-3"
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -149,14 +164,14 @@
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                >
+                > 
                   <circle cx="9" cy="21" r="1"></circle>
                   <circle cx="20" cy="21" r="1"></circle>
                   <path
                     d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
                   ></path>
-                </svg>
-              </a>
+                </svg>-->
+             
 
               
                 <!--Navbar has two part the top one and the bottom one-->
@@ -168,20 +183,7 @@
                     </div>
                     <div>
                         
-                        <!--Shopping cart-->
-                        <div class="shopping-cart text-1000">
-                            <div class="sum-prices">
-                                <!--Shopping cart logo-->
-                                <i
-                                    class="fas fa-shopping-cart shoppingCartButton"
-                                ></i>
-                                <!--The total prices of products in the shopping cart -->
-                                <h6 id="sum-prices"></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
+                       
                     
                 </div>
                 
@@ -225,43 +227,101 @@
       <!-- ?===============================================-->
       <!-- ?   INICIO PLAYERAS-->
       <!-- ?===============================================-->
+      <div class="container-fluid">
       <section class="main-section">
+
         <div class="product-container">
-            <div class="products">
-                <div class="product">
-                    <div class="product-under">
-                        <figure class="product-image">
-                            <img
-                                src="./assets/img/seccionMujer/playera1.jpg"
-                                alt=""
-                            />
-                            <div class="product-over">
-                                <button
-                                    class="btn btn-small addToCart"
-                                    data-product-id="1"
-                                >
-                                    <i class="fas fa-cart-plus"></i>Añadir al carrito
+            
+
+            <div class="card-group">
+              <div class="product card">
+                <div class="product-under">
+                    <figure class="product-image">
+                        <img class="fluid"
+                            src="./assets/img/seccionMujer/playera1.jpg"
+                            alt=""
+                        />
+                        <div class="product-over">
+                            <button
+                                class="btn btn-small addToCart"
+                                data-product-id="1"
+                            >
+                                <i class="fas fa-cart-plus"></i>Añadir al carrito
+                
+                            </button>
                     
-                                </button>
-                        
-                            </div>
-                        </figure>
-                        <div class="product-summary">
-                            <h4 class="productName">Playera negra</h4>
-                            <p>
-                                Playera negra con logotipo gangsta
-                            </p>
-                            <h6 class="price">
-                                $<span class="priceValue">349</span>
-                            </h6>
                         </div>
+                    </figure>
+
+                    <div class="product-summary">
+                        <h4 class="productName">Playera negra</h4>
+                        <p>
+                            Playera negra con logotipo gangsta
+                        </p>
+                        <h6 class="price">
+                            $<span class="priceValue">349</span>
+                        </h6>
                     </div>
                 </div>
+            </div>
+
+
+
+
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+          
+
+
+
+            <div class="products">
+
+
+                
                 
                 <div class="product">
                     <div class="product-under">
                         <figure class="product-image">
-                            <img
+                            <img class="fluid"
                                 src="./assets/img/seccionMujer/playera2.jpg"
                                 alt=""
                             />
@@ -291,7 +351,7 @@
                 <div class="product">
                     <div class="product-under">
                         <figure class="product-image">
-                            <img
+                            <img class="fluid"
                                 src="./assets/img/seccionMujer/playera3.jpg"
                                 alt=""
                             />
@@ -607,10 +667,13 @@
   </div>
 
 
-            </div>
-        </div>
+            <!-- </div>
+        </div> -->
+      </div>
+
     </section>
-  
+  </div>
+
      <!-- ?===============================================-->
       <!-- ?   Final PLAYERAS-->
       <!-- ?===============================================-->
