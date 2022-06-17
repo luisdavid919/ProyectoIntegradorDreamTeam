@@ -13,18 +13,21 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
 USE `mydb` ;
-
+-- USE ecommercedbUser;
 -- -----------------------------------------------------
 -- Table `mydb`.`registro`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`registro` (
+CREATE TABLE IF NOT EXISTS `ecommercedbUser`.`registro` (
   `idregistro` INT NOT NULL AUTO_INCREMENT,
   `nombre` VARCHAR(45) NOT NULL,
   `apellidoPat` VARCHAR(45) NOT NULL,
   `apellidoMat` VARCHAR(45) NOT NULL,
+  `telefono` VARCHAR(45) NOT NULL,
   `user` VARCHAR(45) NOT NULL,
   `contra` VARCHAR(45) NOT NULL,
   `correo` VARCHAR(45) NULL,
+  `correo2` VARCHAR(45) NULL,
+  `terminos` VARCHAR(45) NULL,
   PRIMARY KEY (`idregistro`))
 ENGINE = InnoDB;
 
