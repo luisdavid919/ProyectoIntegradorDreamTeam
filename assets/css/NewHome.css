@@ -242,6 +242,8 @@ figure {
   margin: 0 0 1rem;
 }
 
+
+
 img,
 svg {
   vertical-align: middle;
@@ -4645,7 +4647,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover, .nav-link:focus {
   color: #292929; 
-  box-shadow: 5px 5px 5px #eb30ca;
+  box-shadow: 5px 5px 5px #08b1b1;
   transition: 0.5s;
 }
 
@@ -4720,7 +4722,7 @@ fieldset:disabled .btn {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #eb30ca;
+  color: #00f3f3;
   background-color: #3c3c3c;
 }
 
