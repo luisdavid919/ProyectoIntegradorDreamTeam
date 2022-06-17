@@ -130,7 +130,7 @@ inputs.forEach((input) => {
 
 formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
-
+	sendemail();
 	const terminos = document.getElementById('terminos');
 	if (campos.nombre && campos.apellidopat && campos.apellidomat && campos.phone && campos.email && campos.usuario && campos.password && terminos.checked) { //
 		formulario.reset();
@@ -159,6 +159,26 @@ miForm.onsubmit = function (e) {
 	console.log(jsonData);
 }
 miForm: JSON.stringify;
+
+function sendemail() {
+	/* var contactParams = {
+		 from_name: "G-TPX SHOP",
+		 from_email: correo,
+		 message: ""
+	};
+	*/  //console.log("bandera2")
+
+
+
+	var inputCorreo = document.getElementById('correo');
+	emailjs.send("service_e692qr8", "template_l2civcr", {
+		reply_to: inputCorreo.value
+	});
+
+
+	//emailjs.send('service_4mg55xh', 'template_j3vlwmd', contactParams).then(function (res) {})
+}
+
 
 
 
